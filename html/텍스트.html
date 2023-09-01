@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>my page</title>
+        <style>
+            table {
+                border: 1px solid blue;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th, td {
+                border: 1px solid gray;
+            }
+            thead {
+                background-color: pink;
+                font-weight: bold;
+            }
+            tfoot {
+                background-color: gray;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="color: blue;">
+            <h1 id="top">페이지 안에서 링크걸기</h1>
+            <a href="#list">목록 만들기</a>
+            <a href="#table">표 만들기</a>
+            <h1>큰 제목</h1>
+            <h2><ruby>學習<rt>학습</rt></ruby></h2>
+            <h3>작은 제목</h3>
+            <h4>y = x<sup>2</sup> + z<sup>3</sup></h4>
+            <h5>H<sub>2</sub>0</h5>
+            <h6><abbr title="Internet Of Things">IOT</abbr></h6>
+        </div>
+        <p>저의 <small><small>페이지</small></small>에 오신 것을 <mark><q>환영</q></mark>합니다</p>
+        <p><strong><mark>Lorem ipsum</mark></strong> dolor sit amet consectetur adipisicing elit. 
+            <b>Saepe voluptas corporis</b>, fuga nostrum explicabo similique 
+            hic molestias <em><b>velit</b></em> excepturi perferendis dolore eligendi 
+            eos magni dicta? Culpa voluptates nesciunt perferendis ipsa!</p>
+        <blockquote><i><span style="color: red;">인용문구</span>를 편집합니다</i></blockquote>
+        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Itaque recusandae odio, libero tenetur nihil reiciendis, 
+            eveniet repellendus a harum, repudiandae quis laborum exercitationem? 
+            Sit, perferendis vel non ad veritatis maxime!</pre>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+            Blanditiis, cum cumque quis quidem illum explicabo ex. <br>
+            Explicabo ipsum molestias obcaecati ipsam, voluptas excepturi 
+            a laboriosam aspernatur qui distinctio! <br> Consequuntur, maiores?</p>
+        <h3 id="list">목록 만들기</h3>
+        <h4>순서 없는 목록(ul~li)</h4>
+        <ul>
+            <li>사과</li>
+            <li>딸기</li>
+            <li>바나나</li>
+        </ul>
+        <h4>순서 있는 목록(ol~li)</h4>
+        <ol type="i" start="4" reversed>
+            <li>첫번째 목록</li>
+            <li>두번째 목록</li>
+            <li>세번째 목록</li>
+        </ol>
+        <h4>설명 목록(dl~dt~dd)</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>웹페이지의 내용을 보여주는 마크업 언어</dd>
+            <dt>CSS</dt>
+            <dd>웹페이지의 디자인을 담당하는 언어</dd>
+            <dt>javascript</dt>
+            <dd>웹페이지의 동적요소를 구현해 주는 언어</dd>
+        </dl>
+        <a href="#top">처음으로</a>
+        <h3 id="table">표 만들기</h3>
+        <table>
+            <caption>파라다이스 객실</caption>
+            <colgroup>
+                <col style="background-color: yellow;">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>방이름</th>
+                    <th>대상</th>
+                    <th>크기</th>
+                    <th>가격</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>핑크방</td>
+                    <td>여성</td>
+                    <td rowspan="3">4인실</td>
+                    <td rowspan="4">1인 20,000원</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">보라방</td>
+                    <td>동성</td>
+                </tr>
+                <tr>
+                    <td>가족1팀</td>
+                </tr>
+                <tr>
+                    <td>그린방</td>
+                    <td>-</td>
+                    <td>2인실</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="4">바깥채 전체를 렌트합니다</td>
+            </tfoot>
+        </table>
+        <table>
+            <h3>상품 구성</h3>
+            <caption>선물용과 가정용 상품 구성</caption>
+            <colgroup>
+                <col style="background-color: darkgrey;">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+                <tr>
+                    <th>용도</th>
+                    <th>중량</th>
+                    <th>개수</th>
+                    <th>가격</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td rowspan="2">선물용</td>
+                    <td> 3kg </td>
+                    <td> 11~16과 </td>
+                    <td> 35,000원 </td>
+                </tr>
+                <tr>
+                    <td> 5kg </td>
+                    <td> 18~26과 </td>
+                    <td> 52,000원 </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">가정용</td>
+                    <td> 3kg </td>
+                    <td> 11~16과 </td>
+                    <td> 30,000원 </td>
+                </tr>
+                <tr>
+                    <td> 5kg </td>
+                    <td> 18~26과 </td>
+                    <td> 47,000원 </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <h3>먹거리</h3>
+            <tr>
+                <th>입춘 천냥 국수</th>
+                <td>11:00 ~ 16:00</td>
+                <td>목관아 주차장</td>
+            </tr>
+            <tr>
+                <th>제주 향토 음식</th>
+                <td>10:30 ~ 17:00</td>
+                <td>관덕정 마당</td>
+            </tr>
+            <tr>
+                <th>입춘 주전부리</th>
+                <td>10:30 ~ 17:00</td>
+                <td>관덕정 마당</td>
+            </tr>
+            <tr>
+                <th>차 나눔</th>
+                <td>10:30 ~ 17:00</td>
+                <td>관덕정 마당</td>
+            </tr>
+        </table>
+        <a href="#top">처음으로</a>
+    </body>
+
+</html>
