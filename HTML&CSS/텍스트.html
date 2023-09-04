@@ -5,13 +5,20 @@
         <meta charset="UTF-8">
         <title>my page</title>
         <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&display=swap');
             table {
-                border: 1px solid blue;
+                caption-side: bottom;
+                border: 1px solid black;
                 border-collapse: collapse;
+                border-spacing: 10px 10px;
+                width: 80%;
                 text-align: center;
             }
             th, td {
                 border: 1px solid gray;
+                vertical-align: middle;
+                padding: 10px;
             }
             thead {
                 background-color: pink;
@@ -21,6 +28,63 @@
                 background-color: gray;
                 font-weight: bold;
             }
+            .heading {
+                background-color: #eee;
+            }
+            p {
+                font-family: 'Dongle', sans-serif;
+                font-size: 24px;
+                font-style: italic;
+                color: #f0f;
+                text-indent: 24px;
+                /* text-transform: uppercase; */
+                line-height: 1.5;
+                /* text-decoration: underline; */
+                font-weight: bold;
+                text-align: justify;
+            }
+            .text_shadow {
+                text-shadow: 1px 2px 3px red;
+            }
+            .ellips {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            a {
+                text-decoration: none;
+                font-weight: 700;
+            }
+            .center {
+                text-align: center;
+                background-color: rgba(0,0,0,1);
+                color: #fff;
+                text-shadow: 3px 2px 3px #f00;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%/50%;
+                line-height: 200px;
+                padding: 10px;
+                box-shadow: 0px 0px 5px 5px gray;
+            }
+            .borderBox {
+                box-sizing: border-box;
+                padding: 10px;
+                text-align: center;
+                background-color: rgba(0,0,0,1);
+                color: #fff;
+                text-shadow: 3px 2px 3px #f00;
+                width: 400px;
+                height: 100px;
+                line-height: 80px;
+            }
+            ul {
+                list-style-position: inside;
+                text-align: center;
+            }
+            ol {
+                text-align: center;
+            }
         </style>
     </head>
 
@@ -29,15 +93,16 @@
             <h1 id="top">페이지 안에서 링크걸기</h1>
             <a href="#list">목록 만들기</a>
             <a href="#table">표 만들기</a>
-            <h1>큰 제목</h1>
+            <h1 class="center">큰 제목</h1>
+            <h1 class="borderBox">큰 제목</h1>
             <h2><ruby>學習<rt>학습</rt></ruby></h2>
             <h3>작은 제목</h3>
             <h4>y = x<sup>2</sup> + z<sup>3</sup></h4>
             <h5>H<sub>2</sub>0</h5>
             <h6><abbr title="Internet Of Things">IOT</abbr></h6>
         </div>
-        <p>저의 <small><small>페이지</small></small>에 오신 것을 <mark><q>환영</q></mark>합니다</p>
-        <p><strong><mark>Lorem ipsum</mark></strong> dolor sit amet consectetur adipisicing elit. 
+        <p>저의 <small><small>페이지</small></small>에 오신 것을 <mark><q class="text_shadow">환영</q></mark>합니다</p>
+        <p class="ellips"><strong><mark><span class="text_shadow">Lorem ipsum</span></mark></strong> dolor sit amet consectetur adipisicing elit. 
             <b>Saepe voluptas corporis</b>, fuga nostrum explicabo similique 
             hic molestias <em><b>velit</b></em> excepturi perferendis dolore eligendi 
             eos magni dicta? Culpa voluptates nesciunt perferendis ipsa!</p>
@@ -47,10 +112,13 @@
             eveniet repellendus a harum, repudiandae quis laborum exercitationem? 
             Sit, perferendis vel non ad veritatis maxime!</pre>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
-            Blanditiis, cum cumque quis quidem illum explicabo ex. <br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Blanditiis, cum cumque quis quidem illum explicabo ex. 
             Explicabo ipsum molestias obcaecati ipsam, voluptas excepturi 
-            a laboriosam aspernatur qui distinctio! <br> Consequuntur, maiores?</p>
+            a laboriosam aspernatur qui distinctio! Consequuntur, maiores?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Cupiditate reprehenderit asperiores qui laborum, recusandae officia ipsa voluptates nulla, 
+            vitae excepturi eveniet maxime neque? Voluptatem omnis sit eligendi sequi maxime aspernatur.</p>
         <h3 id="list">목록 만들기</h3>
         <h4>순서 없는 목록(ul~li)</h4>
         <ul>
@@ -78,12 +146,12 @@
         <table>
             <caption>파라다이스 객실</caption>
             <colgroup>
-                <col style="background-color: yellow;">
+                <col class="heading">
                 <col>
                 <col>
                 <col>
             </colgroup>
-            <thead>
+            <thead class="heading">
                 <tr>
                     <th>방이름</th>
                     <th>대상</th>
