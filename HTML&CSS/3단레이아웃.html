@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3단 레이아웃</title>
+    <style>
+        #container {
+            border: 1px solid gray;
+            width: 960px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .border {
+            border: 1px solid gray;
+        }
+        .greentext{
+            color: green;
+        }
+        header {
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        aside {
+            width: 220px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: beige;
+        }
+        #left_side {
+            float: left;
+        }
+        section {
+            width: 384px;
+            padding: 20px;
+            float: left;
+            margin : 0px 5px 20px 5px;
+        }        
+        #right_side {            
+            float: right;
+        }
+        footer {
+            clear: both;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header class="border">
+            <p class="greentext"> - container : 테두리 1px, 너비 960px, 안여백 20px, 화면 중앙에 위치</p>
+            <p class="greentext"> - header : 테두리 1px, 안여백 10px, 아래 요소와 간격 20px</p>
+            <h1>사이트 제목</h1>
+        </header>
+        <aside class="border" id="left_side">
+            <h2>왼쪽 사이드 바</h2>
+            <p>광고1</p>
+            <p>광고2</p>
+            <p class="greentext">테두리 1px, 너비 220px, 안여백 20px, 왼쪽으로 플로팅, 아래요소와 간격 20px, 배경색</p>
+        </aside>
+        <section class="border">
+            <h2>본문</h2>
+            <p>내용 입력1</p>
+            <p>내용 입력2</p>
+            <p class="greentext">테두리 1px, 너비 384px,<br>안여백 20px, 왼쪽으로 플로팅,<br>좌우 요소와의 간격 5px, 아래요소와의 간격 20px</p>
+        </section>
+        <aside class="border" id="right_side">
+            <h2>오른쪽 사이드 바</h2>
+            <p>광고1</p>
+            <p>광고2</p>
+            <p class="greentext">테두리 1px, 너비 220px, 안여백 20px, 오른쪽으로 플로팅, 아래요소와 간격 20px, 배경색</p>
+        </aside>
+        <footer class="border">
+            <h2>푸터</h2>
+            <p>저작권 정보, 연락처 등</p>
+            <p class="greentext">테두리 1px, 양쪽 플로팅 해제, 안여백 10px</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

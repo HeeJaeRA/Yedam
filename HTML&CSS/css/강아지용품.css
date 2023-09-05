@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dongle&display=swap');
+#container {
+        width: 960px;
+        margin: 0 auto;
+        /* border: 1px solid #ccc; */
+}
+img {
+        width: 200px;
+        height: 200px;
+}        
+/* p, ul, address {
+    font-family: 'Dongle', sans-serif;
+}
+h1, h3 {
+    font-family: 'Black Han Sans', sans-serif;
+} */
+header {
+    background-color: rebeccapurple;
+    padding: 10px;
+    overflow: hidden;
+}
+header img {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+nav {
+    width: 600px;
+    margin-top: 3.2px;
+    float: right;  
+}
+nav ul {
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-left: 30px;
+}
+nav a {
+    color: azure;
+    text-decoration: none;
+}
+section {
+    float: left;
+    width: 680px;
+}
+article {
+    border: 1px solid #ccc;
+    float: left;
+    width: 327px;
+    height: 288px;
+    margin: 2px 1px 5px 0px;
+    padding: 5px;
+}
+article p {
+    text-indent: 16px;
+    text-align: justify;
+}
+aside {
+    /* margin-top: 87px; */
+    width: 200px;
+    height: 624px;
+    display: inline;
+    float: right;
+}
+footer {
+    color: white;
+    background-color: royalblue;
+    clear: both;
+    padding: 20px;    
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+}

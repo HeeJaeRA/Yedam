@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2단 레이아웃</title>
+    <style>
+        #container {
+            border: 1px solid gray;
+            width: 960px;
+            padding: 20px;
+            margin: 0 auto;            
+        }
+        p {
+            color: green;
+        }
+        .blacktext {
+            color: black;
+        }
+        header {
+            border: 1px solid gray;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        section {
+            border: 1px solid gray;
+            width: 620px;
+            padding: 20px;
+            float: left;
+            margin-bottom: 20px;
+        }
+        aside {
+            border: 1px solid gray;
+            width: 220px;
+            padding: 20px;
+            float: right;
+            margin-bottom: 20px;
+            background-color: rgb(187, 180, 180);
+        }
+        footer {
+            border: 1px solid gray;
+            clear: both;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <p> - container: 테두리 1px,너비 960px,안여백 20px,화면 중앙에 위치</p>
+            <p> - header: 테두리 1px,안여백 10px,아래 요소와 간격 20px</p>
+            <h1>사이트 제목</h1>            
+        </header>
+        <section>
+            <h2>본문</h2>
+            <p class="blacktext">내용 입력1</p>
+            <p class="blacktext">내용 입력2</p>
+            <p>테두리 1px,너비 620px,<br>안여백 20px,왼쪽으로 플로팅,<br>아래요소와 간격 20px</p>
+        </section>
+        <aside>
+            <h2>사이드 바</h2>
+            <p class="blacktext">광고1</p>
+            <p class="blacktext">광고2</p>
+            <p>테두리 1px,너비 220px,안여백 20px,오른쪽으로 플로팅,아래요소와 간격 20px,배경색</p>
+        </aside>
+        <footer>
+            <h2>푸터</h2>
+            <p class="blacktext">저작권 정보, 연락처 등</p>
+            <p>테두리 1px,양쪽 플로팅 해제,안여백 10px</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

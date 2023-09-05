@@ -4,89 +4,84 @@
     <head>
         <meta charset="UTF-8">
         <title>프로필</title>
-        <style>
-            #container {
-                width: 600px;
-                margin: 0 auto;
-                padding: 20px;
-                border: 1px solid blue;
-            }
-            table, th, td { 
-                border: solid 1px;
-                border-collapse: collapse;
-            }
-            th {
-                background-color: darkgray;
-            }
-        </style>
+        <link rel="stylesheet" href="css/프로필.css">
     </head>
 
     <body>
         <div id="container">
-            <!-- 프로필 -->
-            <img src="/img/프로필.png" alt="프로필" title="프로필">
-            <h2>scallet</h2>
-            <p>죽음이라 쓰고 삶이라 읽는다...</p>
-            <p>Daegu, Korea</p>
-            <p>scallet@gmail.com</p>
-            <h2>SNS</h2>
-            <ul>
-                <li><a href="https://facebook.com" target="_blank">facebook</a></li>
-                <li><a href="https://twitter.com" target="_blank">twitter</a></li>
-            </ul>
-            <h1>Who am I?</h1>
-            <p><b><mark>프런트엔드 웹 기술(Front-end web Tech)</mark></b>에 관심이 많습니다.<br>
-            현재 제주의 한 시골 마을에서 코딩중입니다.</p>
-            <hr>
-            <!-- 가능 프로그램 -->
-            <h2>Experience</h2>
-            <ul>
-                <li> <b> 프런트엔드 개발 </b>
+            <aside>
+                <!-- 프로필 -->
+                <img src="img/프로필.png" alt="프로필" title="프로필" width="140px">
+                <h2>scallet</h2>
+                <p>죽음이라 쓰고 삶이라 읽는다...</p>
+                <div id="addr">
+                    <p>Daegu, Korea</p>
+                    <p>scallet@gmail.com</p>
+                </div>
+                <div id="sns">
+                    <h2>SNS</h2>
                     <ul>
-                        <li> html </li>
-                        <li> css </li>
-                        <li> javascript </li>
+                        <li><a href="https://facebook.com" target="_blank">facebook</a></li>
+                        <li><a href="https://twitter.com" target="_blank">twitter</a></li>
                     </ul>
-                </li> 
-                <li> <b> 웹 디자인 </b> 
-                    <ul>
-                        <li> photoshop </li>
-                        <li> illustrator </li>
-                    </ul>
-                </li>
-            </ul>
-            <hr>
-            <!-- 추가 기술 -->
-            <h2> Skill </h2>
-            <hr>
-            <!-- 학력 사항 -->
-            <h2> Education </h2>
-            <table>
-                <caption>학력 사항</caption>
-                <thead>
-                    <tr>
-                        <th>출신학교</th>
-                        <th>전공</th>
-                        <th>기간</th>
-                        <th>구분</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>한국대학교</td>
-                        <td>컴퓨터공학</td>
-                        <td>2014.3 ~ 2018.2</td>
-                        <td>졸업</td>
-                    </tr>
-                    <tr>
-                        <td>한국고등학교</td>
-                        <td>-</td>
-                        <td>2011.3 ~ 2014.2</td>
-                        <td>졸업</td>
-                    </tr>
-                </tbody>
-            </table>
-            <hr>
+                </div>
+            </aside>
+
+            <section>
+                <h1>Who am I?</h1>
+                <p><b><mark>프런트엔드 웹 기술(Front-end web Tech)</mark></b>에 관심이 많습니다.<br>
+                현재 제주의 한 시골 마을에서 코딩중입니다.</p>
+                <hr>
+                <!-- 가능 프로그램 -->
+                <h2>Experience</h2>
+                <ul>
+                    <li> <b> 프런트엔드 개발 </b>
+                        <ul>
+                            <li> html </li>
+                            <li> css </li>
+                            <li> javascript </li>
+                        </ul>
+                    </li> 
+                    <li> <b> 웹 디자인 </b> 
+                        <ul>
+                            <li> photoshop </li>
+                            <li> illustrator </li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+                <!-- 추가 기술 -->
+                <h2> Skill </h2>
+                <hr>
+                <!-- 학력 사항 -->
+                <h2> Education </h2>
+                <table>
+                    <caption>학력 사항</caption>
+                    <thead>
+                        <tr>
+                            <th>출신학교</th>
+                            <th>전공</th>
+                            <th>기간</th>
+                            <th>구분</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>한국대학교</td>
+                            <td>컴퓨터공학</td>
+                            <td>2014.3 ~ 2018.2</td>
+                            <td>졸업</td>
+                        </tr>
+                        <tr>
+                            <td>한국고등학교</td>
+                            <td>-</td>
+                            <td>2011.3 ~ 2014.2</td>
+                            <td>졸업</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </section>
         </div>
     </body>
 
