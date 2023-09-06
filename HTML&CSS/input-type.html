@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력 타입</title>
+    <style>
+        #container {
+            width: 900px;
+            margin: 0 auto;
+        }
+        fieldset {
+            margin: 10px;
+            border: 2px solid #ccc;
+        }
+        legend {
+            font-weight: 700;
+        }
+        li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        .fld1 label{
+            float: left;
+            width: 150px;
+        }
+        .redtext {
+            color: red;
+        }
+        .subtext {
+            font-size: smaller;
+        }
+        .ffld {
+            margin: 0;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <fieldset>
+                <label for="p_id">아이디:</label>
+                <input type="text" id="p_id" name="p_id" size="10">
+                <label for="u_pw">비밀번호:</label>
+                <input type="text" id="p_pw" name="p_pw" size="10">
+                <input type="submit" value="로그인">
+            </fieldset>
+            <fieldset class="fld1">
+                <legend>개인 정보</legend>
+                <ul>
+                    <li>
+                        <label for="u_id">아이디 : <span class="redtext">*</span></label>
+                        <input type="text" id="u_id" name="u_id" size="10" required>
+                    </li>
+                    <li>
+                        <label for="u_pw">비밀번호 : <span class="redtext">*</span></label>
+                        <input type="password" id="u_pw" name="u_pw" required>
+                    </li>
+                    <li>
+                        <label for="u_pw">비밀번호 확인 : <span class="redtext">*</span></label>
+                        <input type="password" id="u_pw" name="u_pw" required>
+                    </li>
+                    <li>
+                        <label for="u_name">이름 : <span class="redtext">*</span></label>
+                        <input type="text" id="u_name" name="u_name" size="10" required>
+                    </li>
+                    <li>
+                        <label for="u_email">메일 주소 : <span class="redtext">*</span></label>
+                        <input type="email" id="u_email" name="u_email" size="20" required>
+                    </li>
+                    <li>
+                        <label for="u_url">홈페이지 주소 : </label>
+                        <input type="url" id="u_url" name="u_url">
+                    </li>
+                    <li>
+                        <label for="u_post">우편번호 : </label>
+                        <input type="text" id="u_url" name="u_url" size="3"> - <input type="text" id="u_url" name="u_url" size="3"> <button type="button">우편번호 검색</button>
+                    </li>
+                    <li>
+                        <label for="u_add">집주소 : </label>
+                        <input type="text" id="u_add" name="u_add" size="40">
+                    </li>
+                    <li>
+                        <label for="u_tel">연락처 : </label>
+                        <input type="tel" id="u_tel" name="u_tel">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <label for="sch">검색:</label>
+                <input type="text" id="sch" name="sch">
+                <button type="button">검색</button>
+                <button type="button">다시 입력</button>
+            </fieldset>
+            <fieldset class="fld1">
+                <legend>등록 정보</legend>
+                <ul>
+                    <li>
+                        <label for="in">참여인원<span class="subtext">(최대10명)</span>:</label>
+                        <input type="number" id="in" name="in" value="1" min="0" max="10" step="1"> 
+                    </li>
+                    <li>
+                        <label for="ji">지원물품<span class="subtext">(1인당 5개)</span>:</label>
+                        <input type="number" id="ji" name="ji" value="1" min="0" max="50" step="5">
+                    </li>
+                    <li>
+                        <label for="hee">희망 단계<span class="subtext">(상,중,하)</span>:</label>
+                        <input type="range" id="hee" name="hee" value="1" min="1" max="3" step="1">
+                    </li>
+                    <li>
+                        <label for="cum">첨부파일 선택 :</label>
+                        <input type="file" id="cum" name="cum">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>수강 과목을 선택하세요<span class="subtext">(1과목 선택 가능)</span></legend>
+                <ul>
+                    <li>
+                        <label for="col">선호색상</label>
+                        <input type="color" id="col" name="col">
+                    </li>
+                    <li>
+                        <label for="sin">신청 과목<span class="subtext">(회화)</span></label>
+                        <input type="radio" name="sin" value="low" checked>영어회화(초급)
+                        <input type="radio" name="sin" value="middle">영어회화(중급)
+                        <input type="radio" name="sin" value="high">영어회화(고급)
+                    </li>
+                    <li>
+                        <label for="gwan">관심분야는?<span class="subtext">(다수선택)</span></label>
+                        <input type="checkbox" name="gwan" value="twitter">Twitter
+                        <input type="checkbox" name="gwan" value="facebook">Facebook
+                        <input type="checkbox" name="gwan" value="instagram">Instagram
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="ffld">
+                <input type="submit" value="전송">
+                <input type="reset" value="취소">
+            </fieldset>
+
+        </form>
+    </div>
+    
+</body>
+</html>
