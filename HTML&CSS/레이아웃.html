@@ -6,36 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>레이아웃</title>
     <style>
+        body {
+            background: url(img/웃는강아지.PNG) no-repeat center center fixed;
+            background-size: 300px;
+        }
         div {
             width: 300px;
             height: 100px;
             background-color: yellowgreen;
             margin: 10px;
         }
+        #box1 {
+            background: linear-gradient(to top, green, rgb(154, 212, 154) 50%, yellow);
+        }
+        #pos1 {
+            background: radial-gradient(circle farthest-side at 20% 50%, yellow, rgb(139, 139, 194), green);
+            position: relative;
+            width: 300px;
+            height: 300px;
+            /* left: 100px; */
+            /* top: 50px; */
+            /* right: 20px; */
+            /* bottom: 100px; */
+        } 
+        p {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            text-align: center;
+            line-height: 100px;
+            border-radius: 50px;
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+        }
+        p a {
+            text-decoration: none;
+            color: red;
+        }
+        .abs1 {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            position: absolute;
+        }
+        #lt {
+            top: 110px;
+            left: 50px;
+            background-color: blue;
+            z-index: 99;
+            /* visibility: hidden; */
+            opacity: 0.5;
+        }
+        #rt {
+            top: 115px;
+            right: 140px;
+            background-color: blueviolet;
+            z-index: 999;
+            visibility: hidden;
+        }
+        #bl {
+            bottom: 0;
+            left: 0;
+        }
+        #br {
+            bottom: 0;
+            right: 0;
+        }
+        #center {
+            top: 115px;
+            left: 115px;
+        }
         #box2 {
             float: left;
+            background: repeating-linear-gradient(45deg, yellow, yellow 10%, green 10%, green 20%);
         }
         #box3 {
             float: right;
+            background: repeating-radial-gradient(circle at 30% 50%, yellow, yellow 5%, black 5%, black 10%);
         }
         #box4 {
-            background-color: yellow;
+            /* background-color: yellow; */
             width: 400px;
             float: right;
+            background-image: url(img/레드향.jpg);
+            background-size: 50% 50%;
+            background-repeat: no-repeat;
         }
         #box5 {
             background-color: burlywood;
             clear: both;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        .hid {
+            /* visibility: hidden; */
+            /* display: none; */
+            opacity: 0.5;
         }
     </style>
 </head>
 
 <body>
     <div id = "box1">box1</div>
+    <p><a href="#">top</a></p>
+    <div id= "pos1">po : relative
+        <div class="abs1" id="lt">abs1</div>
+        <div class="abs1" id="rt">abs2</div>
+        <div class="abs1" id="bl">abs3</div>
+        <div class="abs1" id="br">abs4</div>
+        <div class="abs1" id="center">abs5</div>
+    </div>
     <div id = "box2">float:left</div>
     <div id = "box3">float:right</div>
     <div id = "box4">float:none</div>
     <div id = "box5">clear:both</div>
+    <img src="img/쉬즈.PNG" alt="이미지1">
+    <img class="hid" src="img/요크.PNG" alt="이미지2">
+    <img src="img/폭스.PNG" alt="이미지3">
 </body>
 
 </html>

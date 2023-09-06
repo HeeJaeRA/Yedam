@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 양식</title>
+    <style>
+        #container {
+            width: 600px ;
+            margin: 0 auto;
+        }
+        form ul {
+            overflow: hidden;
+            float: left;
+        }
+        form li {
+            list-style: none;
+            margin-bottom: 5px;
+        }
+        label {
+            /* display: inline-block; */
+            float: left;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>폼 만들기</h1>
+        <form name="login" action="login.jsp" method="post">
+            <fieldset>
+                <legend>로그인</legend>
+                <ul>
+                    <li>
+                        <label for="u_id">아이디</label>
+                        <input type="text" id="u_id" name="u_id" placeholder="id 입력" autofocus>
+                    </li>
+                    <li>
+                        <label for="u_pw">비밀번호</label>
+                        <input type="password" id="u_pw" name="u_pw">                
+                    </li>
+                    <li>
+                        <label for="search">검색상자</label>
+                        <input type="search" id="search" name="search">
+                    </li>
+                    <li>
+                        <label for="url">홈페이지</label>
+                        <input type="url" id="url" name="url">
+                    </li>
+                    <li>
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="tel">전화번호</label>
+                        <input type="tel" id="tel" name="tel">
+                    </li>
+                    <li>
+                        <label for="sb">스핀박스</label>
+                        <input type="number" id="sb" name="sb" value="0" min="0" max="10" step="2">
+                    </li>
+                    <li>
+                        <label for="sl">슬라이드</label>
+                        <input type="range" id="sl" name="sl" value="1" min="0" max="5" step="1">
+                    </li>
+                    <li>
+                        <label for="col">색상</label>
+                        <input type="color" id="col" name="col">
+                    </li>
+                    <li>
+                        <label for="date">날짜</label>
+                        <input type="week" id="date" name="date">
+                    </li>
+                    <li>
+                        <label for="time">시간</label>
+                        <input type="time" id="time" name="time">
+                    </li>
+                    <li>
+                        <label for="file">파일</label>
+                        <input type="file" id="file" name="file">
+                    </li>
+                    <li>
+                        <label>메모</label>
+                        <textarea cols="30" rows="5" placeholder="지원 동기 간략하게 작성"></textarea>
+                    </li>
+                    <li>
+                        <label for="selec">과일</label>
+                        <select id="selec">
+                            <optgroup label="빨간 과일">
+                                <option value="app">사과</option>
+                                <option value="str" selected>딸기</option>
+                                <option value="tom">토마토</option>
+                            </optgroup>
+                            <optgroup label="노란 과일">
+                                <option value="ban">바나나</option>
+                                <option value="lem">레몬</option>
+                                <option value="bae">배</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="dl">색깔</label>
+                        <input type="text" id="dl" list="color_sel">
+                        <datalist id="color_sel">
+                            <option value="red">빨간색</option>
+                            <option value="blue">파란색</option>
+                            <option value="green">초록색</option>
+                            <option value="white">흰색</option>
+                            <option value="black">검은색</option>
+                        </datalist>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>선택 항목</legend>
+                <ul>
+                    <li>
+                        <label><input type="radio" name="color" value="red">빨강</label>
+                        <label><input type="radio" name="color" value="blue">파랑</label>
+                        <label><input type="radio" name="color" value="green" checked>초록</label>
+                    </li>
+                    <li>
+                        <label><input type="checkbox" name="grade" value="high" checked>상급</label>
+                        <label><input type="checkbox" name="grade" value="middle">중급</label>
+                        <label><input type="checkbox" name="grade" value="low">하급</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>버튼</legend>
+                <input type="submit" value="전송">
+                <input type="reset" value="취소">
+                <input type="button" value="창 열기" onclick="window.open()">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+
+</html>

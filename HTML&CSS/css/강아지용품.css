@@ -92,6 +92,11 @@ article p {
     text-indent: 16px;
     text-align: justify;
 }
+article h3 {
+    background: url(../img/포메.PNG) no-repeat 0px center;
+    background-size: 30px 30px;
+    padding-left: 35px;
+}
 aside {
     margin-top: 74px;
     width: 180px;
