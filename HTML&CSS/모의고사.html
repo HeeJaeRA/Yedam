@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라희재</title>
+    <!-- <link rel="stylesheet" href="css/라희재.css"> -->
+    <style>
+        * {
+            font-family: "맑은 고딕";
+            box-sizing: border-box;
+        }
+        #container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: yellow;
+            color: black;
+        }
+        aside {
+            float: left;
+            width: 200px;
+            height: 500px;
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+        li {
+            list-style: none;
+        }
+        nav {
+            background-color: black;
+            overflow: hidden;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            font-weight: 700;
+            float: left;
+        }
+        nav li:last-child {
+            float: right;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+        }
+        section {
+            float: left;
+            width: 600px;
+            height: 500px;
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #ddd;
+            padding: 10px;
+        }
+        form fieldset {
+            border: none;
+        }
+        form legend {
+            font-weight: 700;
+        }
+        form ul {
+            padding: 0;
+        }
+        form li {
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 3px;
+            padding: 5px;
+        }
+        label {
+            width: 130px;
+            float: left;
+        }
+        input {
+            width: 250px;
+            padding: 3px;
+        }
+        button {
+            width: 150px;
+            border: none;
+            border-radius: 30px;
+            background-color: #fef;
+            padding: 15px;
+        }
+        fieldset {
+            margin: 0;
+            padding: 0;
+        }
+        footer {
+            clear: both;
+            background-color: beige;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>            
+        <h1>라희재 페이지에 온 것을 환영합니다</h1>            
+            <nav>
+                <ul>
+                    <li><a href="#">메인메뉴</a></li>
+                    <li><a href="#">메인메뉴</a></li>
+                    <li><a href="#">메인메뉴</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <h2>좌측 사이드</h2>
+        </aside>
+
+        <section>
+            <h2>회원가입 영역입니다</h2>
+            <form name="gaip" action="gaip.jsp" method="post">
+                <fieldset>
+                    <legend>개인정보 등록</legend>
+                    <ul>
+                        <li>
+                            <label for="u_id">계정아이디</label>
+                            <input type="text" id="u_id" name="u_id" autofocus>
+                        </li>
+                        <li>
+                            <label for="u_pw">비밀번호</label>
+                            <input type="password" id="u_pw" name="u_pw">
+                        </li>
+                        <li>
+                            <label for="u_pwc">비밀번호 확인</label>
+                            <input type="password" id="u_pwc" name="u_pwc">
+                        </li>
+                        <li>
+                            <label for="u_name">이름</label>
+                            <input type="text" id="u_name" name="u_name" placeholder="5자 미만 공백없이">
+                        </li>
+                        <li>
+                            <label for="u_tel">전화번호</label>
+                            <input type="tel" id="u_tel" name="u_tel">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <button type="submit">회원 가입</button>
+                    <button type="reset">정보 수정</button>                    
+                </fieldset>
+            </form>
+        </section>
+        <aside>
+            <h2>우측 사이드</h2>
+        </aside>
+        <footer>
+            <h1>푸터 영역입니다</h1>
+        </footer>
+    </div>
+    
+</body>
+</html>

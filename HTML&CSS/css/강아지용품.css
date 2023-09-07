@@ -40,39 +40,20 @@ nav li {
     padding: 10px;
     margin-left: 30px;
 }
+/* nav a {
+    padding: 3px;
+} */
+nav a:hover {
+    background-color: blue;
+    color: pink;
+}
+nav li:active {
+    background-color: red;
+}
 nav a {
     color: white;
     text-decoration: none;
 }
-/* 
-section {
-    float: left;
-    width: 780px;
-}
-article {
-    border: 1px solid #ccc;
-    float: left;
-    width: 360px;
-    height: 288px;
-    margin: 2px;
-    padding: 10px;
-}
-article p {
-    text-indent: 16px;
-    text-align: justify;
-}
-aside {
-    margin-top: 74px;
-    width: 180px;
-    height: 600px;
-    display: inline;
-    float: right;
-}
-aside img {
-    width: 180px;
-    height: 205px;
-}
-*/
 section {
     width: 780px;
     float: left;
@@ -87,10 +68,38 @@ article {
     height: 288px;
     margin: 2px 2px 2px 0;
     padding: 10px;
+    /* display: none; */
+}
+/* section:hover article {
+    display: block;
+} */
+article:hover {
+    background-color: black;
+    color: #ccc;
+}
+::selection{
+    background-color: yellow;
+    color: blue;
+}
+h1::after {
+    content: "매진임박";
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
 }
 article p {
     text-indent: 16px;
     text-align: justify;
+}
+article p::first-line {
+    background-color: yellowgreen;
+}
+article p::first-letter {
+    font-size: 20px;
+    color: red;
 }
 article h3 {
     background: url(../img/포메.PNG) no-repeat 0px center;
@@ -106,6 +115,10 @@ aside {
 aside img {
     width: 180px;
     height: 205px;
+    opacity: 0.5;
+}
+aside img:hover {
+    opacity: 1;
 }
 
 footer {

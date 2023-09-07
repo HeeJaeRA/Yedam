@@ -22,6 +22,18 @@
             float: left;
             width: 80px;
         }
+        input:focus {
+            background-color: yellow;
+        }
+        input:enabled {
+            background-color: green;
+        }
+        input:disabled {
+            background-color: #aaa;
+        }
+        input:checked + span {
+            color: red;
+        }
     </style>
 </head>
 
@@ -46,7 +58,7 @@
                     </li>
                     <li>
                         <label for="url">홈페이지</label>
-                        <input type="url" id="url" name="url">
+                        <input type="url" id="url" name="url" disabled>
                     </li>
                     <li>
                         <label for="email">이메일</label>
@@ -116,14 +128,14 @@
                 <legend>선택 항목</legend>
                 <ul>
                     <li>
-                        <label><input type="radio" name="color" value="red">빨강</label>
-                        <label><input type="radio" name="color" value="blue">파랑</label>
-                        <label><input type="radio" name="color" value="green" checked>초록</label>
+                        <label><input type="radio" name="color" value="red"><span>빨강</span></label>
+                        <label><input type="radio" name="color" value="blue"><span>파랑</span></label>
+                        <label><input type="radio" name="color" value="green" checked><span>초록</span></label>
                     </li>
                     <li>
-                        <label><input type="checkbox" name="grade" value="high" checked>상급</label>
-                        <label><input type="checkbox" name="grade" value="middle">중급</label>
-                        <label><input type="checkbox" name="grade" value="low">하급</label>
+                        <label><input type="checkbox" name="grade" value="high" checked><span>상급</span></label>
+                        <label><input type="checkbox" name="grade" value="middle"><span>중급</span></label>
+                        <label><input type="checkbox" name="grade" value="low"><span>하급</span></label>
                     </li>
                 </ul>
             </fieldset>

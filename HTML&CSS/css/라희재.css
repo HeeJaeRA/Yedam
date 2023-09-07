@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;    
+    font-family: "맑은 고딕";
+}
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+nav {    
+    background-color: black;    
+    overflow: hidden;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    font-weight: 700;
+    float: left;
+}
+nav li:last-child{
+    float: right;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+nav li a:hover{
+    background-color: yellow;
+    color: black;
+}
+aside {
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-color: #ddd5d5;
+    text-align: center;
+}
+section {
+    float: left;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+}
+form {
+    width: 500px;
+    background-color: #ddd;
+    margin: 0 auto;
+    padding: 10px;
+}
+fieldset {
+    border: none;
+}
+fieldset legend {
+    font-weight: 700;
+}
+form ul {
+    padding: 0;
+}
+form li {
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid white;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+fieldset label {
+    width: 130px;
+    float: left;
+}
+fieldset input {
+    width: 250px;
+    padding: 3px;
+}
+fieldset button {
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fef;
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+}

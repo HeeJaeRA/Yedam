@@ -24,11 +24,31 @@ nav li {
     padding: 10px;
     margin-left: 30px;
 }
+nav li:nth-child(2n+1) a {
+    background-color: thistle;
+    color: black;
+}
+nav li:nth-child(2n) a {
+    background-color: powderblue;
+    color: black;
+}
+aside li:nth-child(2n) {
+    color: blue;
+}
+/* aside li:not(:nth-child(2n+1)) {
+    color: blue;
+} */
+
 nav a {
     text-decoration: none;
     color: white;
 }
-
+#act:target, #on:target {
+    background-color: yellowgreen;
+}
+#sa:target {
+    background-color: brown;
+}
 section {
     padding: 20px;
     background-color: beige;
