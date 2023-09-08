@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그리드 레이아웃</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #eee;
+            font-size: 16px;
+            /* padding: 10px; */
+        }
+        #wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-gap: 1rem;
+        }
+        .card {
+            border: 1px solid black;
+            border-radius: 3%;
+            box-shadow: black 3px 3px 5px 1px;
+        }
+        .card header {
+            font-size: 1.5rem;
+            padding: 0.5rem;
+        }
+        .card > p {
+            padding: 0.5rem;
+            line-height: 1.6rem;
+        }
+        .card img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+        <div class="card">
+            <header>
+                <h3>사진 제목</h3>
+            </header>
+            <figure>
+                <img src="img/레드향.jpg">
+            </figure>
+            <p>
+                사진설명 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laboriosam iste assumenda. Neque explicabo maxime quos in non cumque, ad eaque pariatur, autem animi nesciunt ex? Quibusdam quis doloribus optio! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda laboriosam iste quasi quae animi distinctio, maiores possimus voluptatem optio minus, cumque inventore placeat! Inventore possimus ad minima quia vero aspernatur!
+            </p>
+        </div>
+    </div>    
+</body>
+</html>

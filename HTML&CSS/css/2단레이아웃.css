@@ -1,0 +1,37 @@
+#container {
+    border: 1px solid gray;
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;            
+}
+p {
+    color: green;
+}
+.blacktext {
+    color: black;
+}
+header {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+section {
+    border: 1px solid gray;
+    width: 620px;
+    padding: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+aside {
+    border: 1px solid gray;
+    width: 220px;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    background-color: rgb(187, 180, 180);
+}
+footer {
+    border: 1px solid gray;
+    clear: both;
+    padding: 10px;
+}

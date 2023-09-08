@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: thistle;
+        }
+        img {
+            width: 300px;
+            height: 250px;
+        }
+
+        #container {
+            width: 320px;
+            margin: 0 auto;
+        }
+        .card {
+            position: relative;
+            width: 300px;
+            height: 500px;
+            background-color: white;
+            margin: 5px auto;
+        }
+        .words {
+            width: 300px;
+            position: absolute;
+            top: 300px;
+            text-align: center;            
+            line-height: 2;
+        }
+    @media screen and (min-width:768px) {
+        #container {
+            width: 570px;
+        }
+        .card {
+            width: 550px;
+            height: 250px;
+        }
+        .words {
+            width: 250px;
+            top: 50px;
+            left: 300px;
+        }                
+    }
+    @media screen and (min-width: 1720px) {
+        #container {
+            width: 1710px;
+        }
+        .card {
+            float: left;
+        }        
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="card">
+            <img src="img/레드향.jpg">
+            <div class="words">
+                <h1>입력 내용</h1>
+                <p>내용입니다.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/웃는강아지.PNG">
+            <div class="words">
+                <h1>입력 내용</h1>
+                <p>내용입니다.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/웃는강아지.PNG">
+            <div class="words">
+                <h1>입력 내용</h1>
+                <p>내용입니다.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/웃는강아지.PNG">
+            <div class="words">
+                <h1>입력 내용</h1>
+                <p>내용입니다.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

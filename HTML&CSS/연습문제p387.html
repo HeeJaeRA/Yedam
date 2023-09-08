@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bear</title>
+    <style>
+        #container {
+            width: 600px;
+            margin: 0 auto;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border: 1px solid white;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px 5px black;
+            animation: spin 5s infinite;
+        }
+        @keyframes spin {
+            0% {
+                transform: perspective(200px) rotateY(0deg);
+            }
+            50% {
+                transform: perspective(200px) rotateY(-180deg);
+            }
+            100% {
+                transform: perspective(200px) rotateY(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="img/레드향.jpg">
+    </div>
+    
+</body>
+</html>
