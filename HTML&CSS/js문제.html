@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 문제 풀기</title>
+</head>
+<body>
+    <h1>js 기초 문제 풀이</h1>
+    <script>
+        //1. 사각형 너비 계산
+        let row = prompt("가로 값 :");
+        let col = prompt("세로 값 :");
+        let a = Number(row) * Number(col);        
+        alert(`사각형의 너비는 ${a}입니다`);
+
+        //2. 나이 계산
+        const YEAR = 2023;
+        let birthYear = prompt("태어난 연도 :");
+        let age = YEAR - Number(birthYear);
+        document.write(`태어난 연도는 ${birthYear}년이고, 나이는 ${age}살 입니다`); 
+
+        //3. 홀짝계산
+        let num = prompt("숫자 :");
+        if (num == 0) {
+            console.log(`${num}은 0입니다.`);
+        } else if (num % 2 == 0){
+            console.log(`${num}은 짝수입니다.`);
+        } else {
+            console.log(`${num}은 홀수입니다.`);
+        }
+
+        if (num == 0) {
+            console.log(`${num}은 0입니다.`);
+        } else if (num > 0) {
+            console.log(`${num}은 양수입니다.`);
+        } else {
+            console.log(`${num}은 음수입니다.`);
+        }
+
+        //4. 평균점수계산
+        let kor = prompt("국어 점수 :");
+        let eng = prompt("영어 점수 :");
+        let mat = prompt("수학 점수 :");
+        let avg = (Number(kor) + Number(eng) + Number(mat)) / 3;
+        if (avg >= 90) {
+            document.write(`평균은 ${avg}, 수 입니다`);
+        }
+        else if (avg >= 80) {
+            document.write(`평균은 ${avg}, 우 입니다`);
+        }
+        else if (avg >= 70) {
+            document.write(`평균은 ${avg}, 미 입니다`);
+        }
+        else if (avg >= 60) {
+            document.write(`평균은 ${avg}, 양 입니다`);
+        }
+        else {
+            document.write(`평균은 ${avg}, 가 입니다`);
+        }
+        (avg >= 90 && kor >= 95) && alert(`장학생입니다.`);
+
+        let su = Number(prompt("숫자 :"));
+        switch(su % 4) {
+            case 0 :
+                console.log(`4의 배수입니다.`);
+                break;
+            case 1 :
+                console.log(`나머지가 1입니다.`);
+                break;
+            case 2 :
+                console.log(`나머지가 2입니다.`);
+                break;
+            case 3 :
+                console.log(`나머지가 3입니다.`);
+                break;
+            default :
+                console.log(`Nan`);
+        }
+
+        let nu = Number(prompt("요일 숫자 : "));
+        let date =''
+        switch(nu % 7) {
+            case 0 : date = "일요일"; break;
+            case 1 : date = "월요일"; break;
+            case 2 : date = "화요일"; break;
+            case 3 : date = "수요일"; break;
+            case 4 : date = "목요일"; break;
+            case 5 : date = "금요일"; break;
+            case 6 : date = "토요일"; break;
+            default : alert(`숫자만 입력하세요.`);
+        }
+        console.log(`${date}입니다.`);
+
+        let u_age = Number(prompt("사용자 나이 :"));
+        (u_age >= 18) ? alert(`${u_age}세 판매 가능!`) : alert(`${u_age}세 판매 불가!`); 
+    </script>    
+</body>
+</html>

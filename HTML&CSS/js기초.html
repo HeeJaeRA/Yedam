@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 기초</title>
+</head>
+<body>
+    <h1>자바스크립트 기초 문법</h1>
+    <script>
+        // 출력문
+        console.log("hello javascript");
+        document.write("<h1>hello js</h1>");
+        // alert("hello"); 
+        
+        // 변수 선언
+        let currYear = 2023;
+        let birthYear = 2000;
+        let age = currYear - birthYear;
+        // alert("현재 나이는 "+(++age)+"세 입니다 "+"데이터 타입은 "+typeof(age)+"입니다");
+        alert(`현재 나이는 ${age}세 입니다. 데이터 타입은 ${typeof(age)}입니다.`);
+        
+        //입력문
+        let u_name = prompt("이름을 입력하세요","홍길동");
+        console.log(`이름 : ${u_name}`);
+        let bool = confirm("이름을 입력했나요?");
+        console.log(bool);
+    </script>
+</body>
+</html>
