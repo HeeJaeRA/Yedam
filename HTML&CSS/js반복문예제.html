@@ -9,6 +9,7 @@
     <h1>반복문 예제</h1>
     
     <script>
+
     const N = Number(prompt(""));
     
     for (let i = 1; i <= N; i++) {
@@ -53,10 +54,7 @@
         for (j = N; j >= i; j--) {
             document.write("&nbsp");
         }
-        for (j = 1; j <= i; j++) {
-            document.write("*");
-        }
-        for (j = 2; j <= i; j++) {
+        for (j = 1; j <= (i*2)-1; j++) {
             document.write("*");
         }
         document.write("<br>");
@@ -68,9 +66,6 @@
             document.write("&nbsp");
         }
         for (j = N; j >= i; j--) {
-            document.write("*");
-        }
-        for (j = (N-1); j >= i; j--) {
             document.write("*");
         }
         document.write("<br>");
@@ -102,34 +97,85 @@
     document.write("<br>");
     }
     
-    // repeat 반복
-    for (let star = 1; star <= N; star++) {
+    // // repeat 반복
+
+    for (let i = 1; i <= 5; i++) {
+        let stars ="";
+        for (let star = 1; star <= i; star++) {
+            stars += "*";
+        }
+        console.log(stars);
+    }
+
+    for (let i = 1; i <= 5; i++) {
+        let stars = "";
+        for (let blank = 5-i; blank >= 1; blank--) {
+            stars += " ";
+        }
+        for (let star = 1; star <= i; star++) {
+            stars += "*";
+        }
+        console.log(stars);
+    }
+
+    for (let i = 1; i <= 5; i++) {
+        let stars ="";
+        for (let star = 5; star >= i; star--) {
+            stars += "*";
+        }
+        console.log(stars);
+    }
+
+    for (let i = 1; i <= 5; i++){
+        let stars ="";
+        for (let blank = 1; blank <= i; blank++) {
+            stars += " ";
+        }
+        for (let star = 5; star >= i; star--){
+            stars += "*";
+        }
+        console.log(stars);
+    }
+
+
+    for (let i = 1; i <= 11; i++) {
+        let stars = "";
+        for (let blank = 11; blank >= i; blank--) {
+            stars += " ";
+        }
+        for (let star = 1; star <= (i*2)-1; star++) {
+            stars += "*";
+        }
+        console.log(stars);
+    }
+
+    for (star = 1; star <= 5; star++) {
         console.log("*".repeat(star));
     }
     console.log("\n");
-    
-    for (star = 1; star <= N; star++) {
+
+    for (star = 1; star <= 5; star++) {
         console.log(" ".repeat(N - star) + "*".repeat(star));
     }
     console.log("\n");
     
-    for (star = N; star >= 1; star--) {
+    for (star = 5; star >= 1; star--) {
         console.log("*".repeat(star));
     }
     console.log("\n");
     
-    for (star = N; star >= 1; star--) {
-        console.log(" ".repeat(N - star) + "*".repeat(star));
+    for (star = 5; star >= 1; star--) {
+        console.log(" ".repeat(5 - star) + "*".repeat(star));
     }
     console.log("\n");
     
-    for (star = 1; star <= N; star+=2) {
-        console.log(" ".repeat((N - star) / 2) + "*".repeat(star));
+    for (star = 1; star <= 5; star+=2) {
+        console.log(" ".repeat((5 - star) / 2) + "*".repeat(star));
     }
     console.log("\n");
     
-    for (star = N; star >= 1; star-=2) {
-        console.log(" ".repeat((N - star) / 2) + "*".repeat(star));
+    for (star = 5; star >= 1; star-=2) {
+        console.log(" ".repeat((5 - star) / 2) + "*".repeat(star));
     }
     console.log("\n");
     
