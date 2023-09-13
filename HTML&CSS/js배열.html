@@ -6,9 +6,10 @@
     <title>배열</title>
 </head>
 <body>
+    <div id = container>
     <h1>배열</h1>
     <script>
-        
+
         // let colors = ['빨강', '주황', '노랑', '초록', '파랑'];
         // console.log(colors);
         // console.log(colors[2]);
@@ -108,7 +109,7 @@
             return avg;
         }
         Student.prototype.toResult = function() {
-            return (`${this.name}\t${this.getSum()}\t\t${this.getAvg()}`);
+            return (`${this.name}\t${this.getSum()}\t\t${this.getAvg()}\t\t`);
         }
         let students = [];
         students.push(new Student('홍길동', 96, 98, 92, 98));
@@ -116,16 +117,24 @@
         students.push(new Student('이몽룡', 69, 89, 92, 78));
         students.push(new Student('임영웅', 97, 95, 89, 98));
         students.push(new Student('성유리', 66, 80, 92, 94));
+        
+        let rank = [];
 
-        console.log(`이름\t총점\t평균`);
+        console.log(`이름\t총점\t평균\t석차`);
         for (let i = 0; i < students.length; i++) {
-            console.log(students[i].toResult());
+            rank.push(1);            
+            for (let j = 0; j < students.length; j++) {
+                if (students[i].getAvg() < students[j].getAvg()){
+                    rank[i]++;                    
+                }
+            }
+            console.log(`${students[i].toResult()} ${rank[i]}`);
             // console.log(students[i].getAvg());
-            // console.log(students[i]);
+            // console.log(rank[i]);
         }
 
-        console.log(students);
-        // console.log(Array.isArray(students));
+        // console.log(students);
+        console.log(Array.isArray(students));
 
 
         // let a = new Array(2,4,6,8,10);
@@ -147,6 +156,7 @@
         // console.log(Array.isArray(a));
 
     </script>
+    </div>
     
 </body>
 </html>
