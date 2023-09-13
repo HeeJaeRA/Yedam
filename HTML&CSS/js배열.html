@@ -92,13 +92,12 @@
         // console.log(numbers);
 
 
-
         function Student (name, kor, eng, math, art) {
             this.name = name;
-            this.kor = Number(kor);
-            this.eng = Number(eng);
-            this.math = Number(math);
-            this.art = Number(art);
+            this.kor = kor;
+            this.eng = eng;
+            this.math = math;
+            this.art = art;
         }
         Student.prototype.getSum = function() {
             let sum = this.kor + this.eng + this.math + this.art;
@@ -109,25 +108,24 @@
             return avg;
         }
         Student.prototype.toResult = function() {
-            // console.log(`${this.name}\t${this.getSum()}\t\t${this.getAvg()}`);
             return (`${this.name}\t${this.getSum()}\t\t${this.getAvg()}`);
-
         }
-
-        let s1 = new Student('홍길동', 96, 98, 92, 98);
-        let s2 = new Student('성춘향', 88, 74, 78, 92);
-        let s3 = new Student('이몽룡', 69, 89, 92, 78);
-        let s4 = new Student('임영웅', 97, 95, 89, 98);
-        let s5 = new Student('성유리', 66, 80, 92, 94);
+        let students = [];
+        students.push(new Student('홍길동', 96, 98, 92, 98));
+        students.push(new Student('성춘향', 88, 74, 78, 92));
+        students.push(new Student('이몽룡', 69, 89, 92, 78));
+        students.push(new Student('임영웅', 97, 95, 89, 98));
+        students.push(new Student('성유리', 66, 80, 92, 94));
 
         console.log(`이름\t총점\t평균`);
-        console.log(s1.toResult());
-        console.log(s2.toResult());
-        console.log(s3.toResult());
-        console.log(s4.toResult());
-        console.log(s5.toResult());
+        for (let i = 0; i < students.length; i++) {
+            console.log(students[i].toResult());
+            // console.log(students[i].getAvg());
+            // console.log(students[i]);
+        }
 
-        console.log(Array.isArray(s1));
+        console.log(students);
+        // console.log(Array.isArray(students));
 
 
         // let a = new Array(2,4,6,8,10);
