@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/0914/0914.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>회원 가입 페이지</h1>
+        </header>
+        <section>
+            <form id="gaip" accept="" method="post">
+                <fieldset>
+                    <legend>개인정보</legend>
+                    <ul>
+                        <li>
+                            <label for="u_name">이름</label>
+                            <input type="text" id="u_name" name="u_name" placeholder="공백 없이 입력" required>
+                        </li>
+                        <li>
+                            <label for="u_pw">비밀번호</label>
+                            <input type="password" id="u_pw" name="u_pw" placeholder="4자리 이상 입력" required>
+                        </li>
+                        <li>
+                            <label for="u_pwc">비밀번호 확인</label>
+                            <input type="password" id="u_pwc" name="u_pwc" placeholder="4자리 이상 입력" required  onchange="return form_check()">
+                        </li>
+                        <li>
+                            <label for="u_mail">이메일 주소</label>
+                            <input type="email" id="u_mail" name="u_mail">
+                        </li>
+                    </ul>
+                </fieldset>
+                <input type="submit" value="회원 가입">
+            </form>
+            
+        </section>
+    </div>
+
+</body>
+</html>
