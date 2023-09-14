@@ -112,25 +112,23 @@
             return (`${this.name}\t${this.getSum()}\t\t${this.getAvg()}\t\t`);
         }
         let students = [];
+
         students.push(new Student('홍길동', 96, 98, 92, 98));
         students.push(new Student('성춘향', 88, 74, 78, 92));
         students.push(new Student('이몽룡', 69, 89, 92, 78));
         students.push(new Student('임영웅', 97, 95, 89, 98));
         students.push(new Student('성유리', 66, 80, 92, 94));
         
-        let rank = [];
+        let rank = 1;
 
         console.log(`이름\t총점\t평균\t석차`);
         for (let i = 0; i < students.length; i++) {
-            rank.push(1);            
             for (let j = 0; j < students.length; j++) {
                 if (students[i].getAvg() < students[j].getAvg()){
-                    rank[i]++;                    
+                    // students.push(rank);
                 }
-            }
-            console.log(`${students[i].toResult()} ${rank[i]}`);
-            // console.log(students[i].getAvg());
-            // console.log(rank[i]);
+            }                    
+            console.log(`${students[i].toResult()}`);
         }
 
         // console.log(students);

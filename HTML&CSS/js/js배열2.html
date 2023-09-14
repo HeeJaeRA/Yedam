@@ -13,9 +13,11 @@
             width: 50%;
             margin: 0 auto;
         }
+        h1 {
+            margin: 30px 0;
+        }
         table {
             text-align: center;
-            /* border: 1px solid black; */
         }
         td {
             /* border: 1px solid black; */
@@ -26,6 +28,7 @@
 </head>
 <body>
     <div id = container>
+    <h1>성적표</h1>
     <script>
         
         function Student (name, kor, eng, math, art) {
@@ -68,13 +71,13 @@
 
         let rank = [];
 
-        document.write(`<table>`);
+        document.write(`<table border = '1'>`);
         document.write(`<tr> <th>이름</th> <th>총점</th> <th>평균</th> <th>석차</th> </tr>`);
         for (let i = 0; i < students.length; i++) {
             rank.push(1);
             for (let j = 0; j < students.length; j++) {
                 if (students[i].getAvg() < students[j].getAvg()){
-                    rank[i]++;
+                    rank[i] += 1;
                 }
             }
             document.write(`<tr>${students[i].toResult()} <td>${rank[i]}</td> </tr>`);
