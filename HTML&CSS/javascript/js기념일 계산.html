@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>기념일 계산</title>
+  <style>
+    #container{
+      width: 400px;
+      border: 1px solid #ccc;
+      padding-top: 30px;
+      margin: 0 auto;      
+    }
+    #day1{
+      text-align: center;
+    }
+    #day1 h3{
+      color:rgb(208, 25, 166);
+      font-size: 24px;;
+    }
+    #day1 p{
+      background-color: black;
+      color: #fff;
+      text-align: left;
+      padding: 8px;
+    }
+    ul{
+      border-bottom: 1px solid #ccc;
+      margin: 20px 40px;
+      padding: 20px;
+      list-style: none;
+      overflow: hidden;
+    }
+    #day2 ul:last-child{
+      border:none;
+    }
+    ul li{
+      float:left;
+      font-weight: bold;
+    }
+    ul li:last-child{
+      float: right;
+      font-weight: bold;
+    }   
+  </style>
+  <script defer src="/javascript/js/js기념일계산.js"></script>
+</head>
+
+<body>
+   <div id="container">
+    <div id="day1">
+      <h1>우리 만난 지</h1>
+      <h3 id="accent"> 몇일?</h3>
+      <p>기념일 계산</p>
+    </div>
+    <div id="day2">
+      <ul>
+        <li>100일</li>
+        <li id="date100"></li>
+      </ul>
+      
+      <ul>
+        <li>200일</li>
+        <li id="date200"></li>
+      </ul>
+
+      <ul>
+        <li>1년</li>
+        <li id="date365"></li>
+      </ul>
+      <ul>
+        <li>500일</li>
+        <li id="date500"></li>
+      </ul>
+    </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>회원 가입</title>
+	<link rel="stylesheet" href="css/회원가입.css">
+	<script defer src="js/회원가입.js"></script>
+</head>
+<body>
+	<div id="container">
+		<h1>회원가입 정보</h1>
+		<hr>
+		<form action="#" id="register" name="register">
+			<ul id="user-info">
+				<li>
+					<label for="user-id" class="field">아이디</label>
+					<input type="text" id="user-id" name="user-id" placeholder="3~10자리의 영문과 숫자로 입력" required>
+				</li>
+				<li>
+					<label for="tel" class="field">전화번호</label>
+					<input type="tel" id="tel" name="tel" required>
+				</li>
+				<li>
+					<label for="user-pw1" class="field">비밀번호</label>
+					<input type="password" id="user-pw1" name="user-pw1" placeholder="4자리 이상" required>
+				</li>
+				<li>
+					<label for="user-pw2" class="field">비밀번호 확인</label>
+					<input type="password" id="user-pw2" name="user-pw2" required>
+				</li>
+				<li>
+					<label class="field">메일링 수신</label>
+					<label class="radio"><input type="radio" value="yes" name="mailing" checked>예</label>
+					<label class="radio"><input type="radio" value="no" name="mailing">아니오</label>
+				</li>
+			</ul>
+			<ul id="buttons">
+				<li>
+					<button type="submit" >가입하기</button>					
+					<button type="reset" >취소</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</body>
+</html>

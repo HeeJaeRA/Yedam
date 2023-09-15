@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js 객체</title>
+</head>
+<body>
+    <h1>객체</h1>
+    <script>
+        let person = {
+            name : "hong",
+            age : 25,
+            job : "의적",
+            arr : ['aa', 'bb', 'cc'],
+            eat : function (food) {
+                console.log(`${food}를 먹어요`);
+            }
+        }
+        
+        console.log(person.age);
+        console.log(person.eat("고구마"));
+        console.log(person.arr);
+        delete person.arr;
+        console.log(person.arr);
+        person.locate = '대구';
+        person.run = function(){
+            console.log(`${this.name}이 달린다.`);
+        }
+        person.run();
+
+        console.log('age' in person);
+        console.log('나이' in person);
+
+        for (let key in person) {
+            console.log(`${key} : ${person[key]}`);
+        }
+
+        let person2 = person;
+        let person3 = obj_copy(person);
+        person.name = "kang";
+        console.log(person.name);
+        console.log(person2.name);
+        console.log(person3.name);
+
+        function obj_copy (obj) { 
+            let personcopy = {};
+            for (let key in obj) {
+                personcopy[key] = obj[key];
+            }
+            return personcopy;
+        }
+
+        function Product (name, weight, price) {
+            this.name = name;
+            this.weight = weight;
+            this.price = price;            
+        }                    
+        Product.prototype.calculate = function(w) {
+                return w/this.weight * this.price;
+        }
+        
+        let sam = new Product('삼겹살', 100, 1690);
+        for (let i in sam) {
+            console.log(`${i} : ${sam[i]}`);
+        }
+        console.log(sam.calculate(1000));
+        console.log(sam instanceof Product);
+
+        let so = new Product('소고기', 100, 3000);
+        for (let i in so) {
+            console.log(`${i} : ${so[i]}`);
+        }
+        console.log(so.calculate(1000));
+        console.log(so instanceof Product);
+    </script>
+    
+</body>
+</html>

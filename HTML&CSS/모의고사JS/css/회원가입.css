@@ -1,0 +1,48 @@
+#container{
+	width:600px;
+	margin:0 auto;
+}
+h1{
+	text-align: center;
+}
+ul li {
+	list-style:none;
+	clear:both;
+}
+.field {
+	float:left;
+	width:100px;
+	font-weight:bold;
+	font-size:0.9em;
+	line-height: 55px;
+	text-align:center;
+	margin-right:15px;
+}
+input[type="text"], 
+input[type="password"], 
+input[type="tel"] {
+	float:left;
+	width:350px;
+	height:35px;
+	border:1px solid #aaa;
+	border-radius:5px;
+	padding:5px;
+	margin:10px 0;
+	
+}
+
+.radio {
+	line-height:55px;
+}
+#buttons{
+	text-align: center;
+}
+button {
+	width:200px;
+	height:50px;
+	margin-right:10px;
+	border:1px solid #ccc;
+	border-radius: 20px;
+	background:#eee;
+	font-size:0.9em;
+}

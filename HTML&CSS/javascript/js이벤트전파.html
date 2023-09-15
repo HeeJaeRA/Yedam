@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 전파</title>
+    <style>
+        body {
+            width: 300px;
+        }
+        #desc {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>이벤트 전파</h1>
+    <h1 id="hd">부모 영역
+        <p id="child">자식 영역</p>
+    </h1>
+    <div>
+        <img src="/img/레드향.jpg" alt="" width="200" height="200">
+        <button type="button" id="showBtn">상세페이지 보기</button>
+    </div>
+
+    <div id="desc">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Corporis aliquam harum consequuntur cum? 
+            Architecto at molestias voluptatum dolorem nemo magnam tempore obcaecati laudantium amet, 
+            illo quod eaque dolores nostrum laborum!</p>
+            <button type="button" id="closeBtn">상세페이지 닫기</button>
+    </div>
+    
+    <script>
+        let hd = document.querySelector('#hd');
+        let cd = document.querySelector('#child');
+
+        // hd.addEventListener('click', hdf);
+        hd.onclick = hdf;
+        // cd.addEventListener('click', pf);
+        cd.onclick = pf;
+
+        function hdf() {
+            alert('부모 영역 이벤트 발생');
+        }
+        function pf() {
+            alert('자식 영역 이벤트 발생');
+            event.stopPropagation();
+        }
+
+        let openBtn = document.querySelector('#showBtn');
+        let closeBtn = document.querySelector('#closeBtn');
+
+        openBtn.onclick = show;
+        closeBtn.onclick = hide;
+
+        function show() {
+            openBtn.style.display = 'none';
+            closeBtn.style.display = 'block';
+            document.querySelector('#desc').style.display = 'block';
+        }
+
+        function hide() {
+            closeBtn.style.display = 'none';
+            openBtn.style.display = 'block';
+            document.querySelector('#desc').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

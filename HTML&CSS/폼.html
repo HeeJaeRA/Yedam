@@ -22,15 +22,15 @@
             float: left;
             width: 80px;
         }
-        input:focus {
+        /* input:focus {
             background-color: yellow;
-        }
-        input:enabled {
+        } */
+        /* input:enabled {
             background-color: green;
         }
         input:disabled {
             background-color: #aaa;
-        }
+        } */
         input:checked + span {
             color: red;
         }
@@ -135,7 +135,7 @@
                     <li>
                         <label><input type="checkbox" name="grade" value="high" checked><span>상급</span></label>
                         <label><input type="checkbox" name="grade" value="middle"><span>중급</span></label>
-                        <label><input type="checkbox" name="grade" value="low"><span>하급</span></label>
+                        <label><input type="checkbox" name="grade" value="low" checked><span>하급</span></label>
                     </li>
                 </ul>
             </fieldset>
@@ -146,6 +146,13 @@
                 <input type="button" value="창 열기" onclick="window.open()">
             </fieldset>
         </form>
+        <script>
+            let sd = document.querySelectorAll("input[name='grade']:checked");
+            console.log(sd);
+            for (let ele of sd) {
+                console.log(ele.value);
+            }
+        </script>
     </div>
     
 </body>
