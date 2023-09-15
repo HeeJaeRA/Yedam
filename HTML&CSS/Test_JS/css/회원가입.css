@@ -3,8 +3,7 @@
 	margin:0 auto;
 }
 h1{
-	text-align: center;
-}
+	text-align: center;}
 ul li {
 	list-style:none;
 	clear:both;
@@ -20,7 +19,7 @@ ul li {
 }
 input[type="text"], 
 input[type="password"], 
-input[type="tel"] {
+input[type="email"] {
 	float:left;
 	width:350px;
 	height:35px;
@@ -34,15 +33,15 @@ input[type="tel"] {
 .radio {
 	line-height:55px;
 }
-#buttons{
-	text-align: center;
+
+#buttons > li {
+	display:inline-block;
 }
 button {
-	width:200px;
+	width:250px;
 	height:50px;
 	margin-right:10px;
 	border:1px solid #ccc;
-	border-radius: 20px;
 	background:#eee;
 	font-size:0.9em;
 }

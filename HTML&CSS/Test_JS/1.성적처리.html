@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>성적처리</title>
+</head>
+<body>
+  <script>
+    // 1. 생성자 함수 생성
+    function Student(name, html, css, js, java) {
+      this.name = name;
+      this.html = html;
+      this.css = css;
+      this.js = js;
+      this.java = java;
+    }
+
+    // 2. prototype 메서드 생성
+    Student.prototype.getsum = function() {
+      return (this.html + this.css + this.js + this.java);
+    }
+    Student.prototype.getAvg = function() {
+      return (this.getsum() / 4);
+    }
+    Student.prototype.toResult = function() {
+      return (`${this.name}\t${this.getsum()}\t\t${this.getAvg()}\n`);
+    }
+
+    // 3. 배열에 학생 객체 삽입
+    students = [];
+
+    students.push(new Student('홍길동', 96, 98, 92, 98));
+    students.push(new Student('성춘향', 88, 74, 78, 92));
+    students.push(new Student('이몽룡', 69, 89, 92, 78));
+    students.push(new Student('임영웅', 97, 95, 89, 98));
+    students.push(new Student('성유리', 66, 80, 92, 94));
+
+    // 4. 성적 출력 
+    console.log(`이름\t총점\t평균`);
+    console.log(`======================`);
+    for (let i in students){
+      console.log(students[i].toResult());
+    }
+    console.log(`======================`);
+
+  </script>
+</body>
+</html>
