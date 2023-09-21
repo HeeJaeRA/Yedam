@@ -82,9 +82,29 @@ SELECT last_name, e.department_id, department_name
 FROM employees e LEFT JOIN departments d ON(e.department_id = d.department_id);
 
 -- 3. Toronto에 근무하는 사원에 대한 보고서를 필요로 합니다. toronto에서 근무하는 모든 사원의 last_name, 직무, 부서번호, 부서 이름을 표시하시오. (힌트 : 3-way join 사용)
-SELECT last_name, job_id, e.department_id, department_name, city
+SELECT last_name, job_id, e.department_id, department_name, city, l.location_id
 FROM employees e LEFT JOIN departments d ON(e.department_id = d.department_id)
-    LEFT JOIN locations ON(city = 'Toronto')
+    LEFT JOIN locations l ON(d.location_id = l.location_id)
+WHERE city = 'Toronto'
+ORDER BY department_id, last_name;
+
+SELECT e.last_name, e.job_id, e.department_id, d.department_name, l.city, l.location_id
+FROM employees e JOIN departments d ON(e.department_id = d.department_id),
+    (SELECT location_id, city
+     FROM locations) l
+WHERE d.location_id = l.location_id 
+AND l.city = 'Toronto'
+ORDER BY department_id, last_name;
+
+SELECT e.last_name, e.job_id, e.department_id, d.department_name, l.city, l.location_id
+FROM employees e,
+    (SELECT department_id, location_id, department_name
+     FROM departments) d,
+    (SELECT location_id, city
+     FROM locations) l
+WHERE e.department_id = d.department_id
+AND d.location_id = l.location_id 
+AND l.city = 'Toronto'
 ORDER BY department_id, last_name;
 
 -- 4. 사원의 last_name, 사원 번호를 해당 관리자의 last_name, 관리자 번호와 함께 표시하는 보고서를 작성하시오. 열 레이블을 각각 Employee, Emp#, Manager, Mgr#으로 지정하시오.
@@ -98,7 +118,7 @@ SELECT e.last_name AS "Employee", e.employee_id AS "Emp#", m.first_name AS "Mang
 FROM employees e LEFT JOIN employees m ON(e.manager_id = m.employee_id)
 ORDER BY e.employee_id;
 
--- 6. 사원의 last_name, 부서 번호, 같은 부서에 근무하는 모든 사원을 표시하는 보고서를 작성하시오. 각 열에 적절한 레이블을 자유롭게 지정해 봅니다.
+-- 6. 사원의 last_name, 부서 번호, 같은 부서에 근무하는 모든 사원의 이름을 표시하는 보고서를 작성하시오. 각 열에 적절한 레이블을 자유롭게 지정해 봅니다.
 SELECT e1.last_name AS "사원 이름", e1.department_id AS "부서 번호", e2.last_name "동료 이름"
 FROM employees e1 LEFT JOIN employees e2 ON(e1.department_id = e2.department_id)
 WHERE(e1.last_name != e2.last_name)
@@ -107,7 +127,7 @@ ORDER BY e1.department_id, e1.last_name;
 -- 7. 직무, 급여에 대한 보고서를 필요로 합니다. 먼저 JOBS테이블의 구조를 표시한 다음, 모든 사원의 이름, 직무, 부서 이름, 급여를 표시하는 query를 작성하시오.
 SELECT * FROM jobs;
 
-SELECT j.job_id, j.job_title, j.min_salary, j.max_salary, e.first_name AS 사원명, e.job_id AS 직무, d.department_name AS 부서명, e.salary AS 급여
+SELECT j.job_title, e.first_name AS 사원명, e.job_id AS 직무, d.department_name AS 부서명, e.salary AS 급여
 FROM jobs j LEFT JOIN employees e ON(j.job_id = e.job_id)
     LEFT JOIN departments d ON(e.department_id = d.department_id)
 ORDER BY j.job_id, e.first_name;
@@ -152,7 +172,7 @@ WHERE manager_id = ANY
     (SELECT employee_id
      FROM employees
      WHERE last_name = 'King');
-
+     
 -- 6. Executive 부서의 모든 사원에 대한 부서 번호, 이름, 업무 ID를 표시하시오.
 SELECT department_id, last_name, job_id
 FROM employees
