@@ -26,7 +26,7 @@ ORDER BY hire_date;
 
 -- 6) 커미션을 받는 사원들을 대상으로 사원번호, 이름, 입사일, 수당을 표시하고자 한다. 수당은 급여와 커미션을 곱하여 구할 수 있다. 
 -- 입사일은 ‘24/03/2008 월요일’의 형식으로 출력하고, 수당은 $기호와 천단위 구분기호 및 소수점 둘째자리까지 표시할 수 있도록 한다. 결과는 수당에 대하여 내림차순 정렬하세요.
-SELECT employee_id, first_name, TO_CHAR(hire_date, 'dd/mm/yyyy day'), TO_CHAR(ROUND(NVL(salary * commission_pct, 0), 2), '$999,999') AS 수당
+SELECT employee_id, first_name, TO_CHAR(hire_date, 'dd/mm/yyyy day') AS 입사일, TO_CHAR(ROUND(NVL(salary * commission_pct, 0), 2), '$999,999') AS 수당
 FROM employees
 WHERE commission_pct != 0
 ORDER BY 수당 DESC;
@@ -68,7 +68,7 @@ FROM employees e LEFT JOIN departments d ON (e.department_id = d.department_id)
 ORDER BY employee_id;
 
 -- 13. EMPLOYEES 테이블에서 부서번호와 부서별 근무인원수, 평균급여를 버림하여 정수로 표시하시오. 
-SELECT department_id, COUNT(NVL(department_id, 1)) AS 근무인원, ROUND(AVG(salary))
+SELECT department_id, COUNT(NVL(department_id, 1)) AS 근무인원, TRUNC(AVG(salary))
 FROM employees
 GROUP BY department_id
 ORDER BY department_id;
