@@ -92,7 +92,6 @@ CREATE TABLE prof(
 
 DESC prof;
 
-SELECT * FROM prof;
 -- 16. 다음과 같이 PROF 테이블에 DML 명령문을 작성하시오.
 INSERT INTO prof
 VALUES (1001, 'Mark', 'm1001', '07/03/01', 800);
