@@ -1,0 +1,12 @@
+ALTER SESSION SET "_oracle_script" = true;
+
+CREATE USER temp
+IDENTIFIED BY 1234;
+
+GRANT CONNECT, RESOURCE TO temp;
+
+GRANT SELECT, INSERT
+ON hr.dept
+TO temp;
+
+DROP USER temp CASCADE;

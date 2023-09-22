@@ -1,0 +1,115 @@
+	※ 실무 프로젝트 기반 Vue, Spring 개발자 양성과정 
+	※ 능력단위 : SQL 활용
+	※ 평가일시 : 2023. 09. 21 (8교시)
+ 
+	이름 :  라희재
+______________________________________________________________________________
+
+
+1번 
+SELECT department_id, department_name, city
+FROM departments d LEFT JOIN locations l ON d.location_id = l.location_id
+ORDER BY department_id;
+
+2번 
+SELECT e.employee_id, e.first_name, e.department_id, d.department_name
+FROM employees e LEFT JOIN departments d ON e.department_id = d.department_id
+ORDER BY department_id;
+
+3번 
+SELECT department_id, COUNT(department_id), TRUNC(AVG(salary))
+FROM employees
+GROUP BY department_id
+ORDER BY department_id;
+
+4번
+SELECT employee_id, first_name, job_id
+FROM employees
+WHERE department_id =
+    (SELECT department_id
+     FROM departments
+     WHERE department_name = 'IT');
+
+5번
+CREATE TABLE prof (
+    profno      NUMBER(4)         PRIMARY KEY,
+    name        VARCHAR2(15)    NOT NULL,
+    id            VARCHAR2(15)    NOT NULL,
+    hiredate    DATE,
+    pay          NUMBER(4)
+);
+
+6번
+INSERT INTO prof
+VALUES (1001, 'Mark', 'm1001', '07/03/01', 800);
+
+INSERT INTO prof
+VALUES (1003, 'Adam', 'a1003', '11/03/02', NULL);
+
+INSERT INTO prof
+VALUES (1004, 'Tom', 't1004', '20/02/25', 900);
+    
+COMMIT;
+
+UPDATE prof
+SET pay = 1200
+WHERE profno = 1003;
+
+DELETE prof
+WHERE profno = 1004;
+
+COMMIT;
+
+7번
+CREATE INDEX prof_name_idx
+ON prof(name);
+
+ALTER TABLE prof
+DROP PRIMARY KEY;
+ALTER TABLE prof
+ADD CONSTRAINT prof_no_pk PRIMARY KEY(profno);
+
+ALTER TABLE prof
+ADD (gender CHAR(3));
+
+ALTER TABLE prof
+MODIFY (name VARCHAR2(20));
+
+8번
+CREATE VIEW prof_vu (pno, pname, id)
+AS  SELECT profno, name, id
+    FROM prof;
+
+CREATE OR REPLACE VIEW prof_vu (pno, pname, id, hiredate)
+AS  SELECT profno, name, id, hiredate
+    FROM prof;
+
+CREATE SYNONYM p_vu
+FOR prof_vu;
+
+9번
+DROP TABLE prof;
+
+인덱스는 삭제, 뷰와 동의어는 이름은 존재하지만 데이터는 삭제되어 사용 불가
+
+10번
+ALTER SESSION SET "_oracle_script" = true;
+
+CREATE USER haksa
+IDENTIFIED BY yd2460;
+
+GRANT CONNECT, RESOURCE
+TO haksa;
+
+GRANT CREATE VIEW, CREATE SYNONYM
+TO haksa;
+
+GRANT SELECT 
+ON hr.departments
+TO haksa;
+
+______________________________________________________________________________
+
+								☆ 수고했습니다.
+
+ 
