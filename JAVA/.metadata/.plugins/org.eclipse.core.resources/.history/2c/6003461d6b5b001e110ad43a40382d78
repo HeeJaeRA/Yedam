@@ -1,0 +1,37 @@
+package ch1;
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		char c1 = 'a';
+		int c2 = c1 + 1;
+		System.out.println(c2);
+		
+		int x = 5;
+		int y = 2;
+		double result = x / y;
+		System.out.println(result);
+		
+		double result1 = (double) x / y;
+		System.out.println(result1);
+		
+		double var1 = 3.5;
+		double var2 = 2.7;
+		int result2 = (int) var1 + (int) var2;
+		System.out.println(result2);
+		
+		long v1 = 2l;
+		float v2 = 1.8f;
+		double v3 = 2.5;
+		String v4 = "3.9";
+		
+		int value = Integer.parseInt(v4);
+		
+		System.out.println(value);
+		//int result3 = (int) v1 + (int) v2 + (int) v3 + Integer.parseInt(v4);
+		//System.out.println(result3);
+	}
+
+}

@@ -1,0 +1,26 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class Scannerex {
+	
+	public static void main(String[] args) {		
+		
+		Scanner sc = new Scanner(System.in);
+		String inputdata;
+		
+		while(true) {
+			System.out.print("문자열 입력 : ");
+			
+			inputdata = sc.nextLine();
+			
+			System.out.println(inputdata);
+			
+			if (inputdata.equals("q")) {
+				break;
+			}
+		}
+		System.out.println("종료");
+	}
+
+}

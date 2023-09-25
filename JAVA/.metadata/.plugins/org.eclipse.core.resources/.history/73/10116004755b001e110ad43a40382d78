@@ -1,0 +1,10 @@
+package ch1;
+
+import java.util.Scanner;
+
+public class Scannerex {
+	
+	Scanner sc = new Scanner(System.in);
+	
+
+}
