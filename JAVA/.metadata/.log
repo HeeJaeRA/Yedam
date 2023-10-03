@@ -406,3 +406,3344 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-09-26 19:51:04.032 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-09-26 19:51:08.505
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-26 19:51:08.505
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,유형 열기,
+		Java 편집기에서 유형을 엽니다.,
+		Category(org.eclipse.ui.category.navigate,탐색,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f0dae44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79ac50fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-26 19:51:08.505
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,이름 바꾸기 - 리팩토링,
+		선택된 요소의 이름을 바꿉니다.,
+		Category(org.eclipse.jdt.ui.category.refactoring,리팩터 - Java,Java 리팩토링 조치입니다.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@684c2c57,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,이름 바꾸기,
+		선택된 항목의 이름을 바꿉니다.,
+		Category(org.eclipse.ui.category.file,파일,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@522fc67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-09-26 19:51:11.310
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-09-26 19:51:11.311
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-26 19:51:11.331
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-09-30 18:35:18.880 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-09-30 18:35:23.077
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-30 18:35:23.077
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,유형 열기,
+		Java 편집기에서 유형을 엽니다.,
+		Category(org.eclipse.ui.category.navigate,탐색,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79ac50fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@684c2c57,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-09-30 18:35:23.077
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,이름 바꾸기 - 리팩토링,
+		선택된 요소의 이름을 바꿉니다.,
+		Category(org.eclipse.jdt.ui.category.refactoring,리팩터 - Java,Java 리팩토링 조치입니다.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@522fc67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,이름 바꾸기,
+		선택된 항목의 이름을 바꿉니다.,
+		Category(org.eclipse.ui.category.file,파일,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@479f1d09,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-09-30 18:35:25.711
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-09-30 18:35:25.711
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-09-30 18:35:25.730
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:34.020
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-09-30 19:51:34.020
+!MESSAGE 플러그인 "org.eclipse.jdt.ui"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-09-30 19:51:34.021
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:34.024
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:34.025
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:34.025
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:34.623
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:34.623
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:34.623
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:36.921
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:36.921
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:36.921
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:39.527
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-09-30 19:51:39.527
+!MESSAGE 플러그인 "org.eclipse.jdt.ui"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-09-30 19:51:39.528
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:39.620
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:39.621
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:39.621
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:40.467
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:40.468
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:40.468
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:41.420
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:41.420
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:41.420
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:43.035
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}
+				((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-09-30 19:51:43.036
+!MESSAGE 플러그인 "org.eclipse.jdt.ui"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-09-30 19:51:43.036
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-09-30 19:51:44.185
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package ch4;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO 자동 생성된 메소드 스텁
+		
+		Scanner scanner = new Scanner(System.in);
+		
+//		System.out.print("##년도 입력: ");
+//		int year = scanner.nextInt();
+//		
+//		if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//			System.out.printf("%d년은 윤년입니다.\n", year);
+//		} else {
+//			System.out.printf("%d년은 평년입니다.\n", year);
+//		}
+//		
+//		System.out.print("\n##교환할 금액: ");
+//		int money = scanner.nextInt();
+//		
+//		int mo500 = money / 500;
+//		int mo100 = (money - (mo500 * 500)) / 100;
+//		int mo50 = (money - (mo500 * 500) - (mo100 * 100)) / 50;
+//		int mo10 = (money - (mo500 * 500) - (mo100 * 100) - (mo50 * 50)) / 10;
+//		int mo = money % 10;
+//		
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		System.out.printf("교환 금액 : %d원\n", money - mo);
+//		System.out.printf("남은 금액 : %d원\n", mo);
+		
+
+//		int result = money;
+//		int mo500 = money / 500;
+//		money %= 500;
+//		System.out.printf("500원 짜리 : %d개\n", mo500);
+//		int mo100 = money / 100;
+//		money %= 100;
+//		System.out.printf("100원 짜리 : %d개\n", mo100);
+//		int mo50 = money / 50;
+//		money %= 50;
+//		System.out.printf("50원 짜리 : %d개\n", mo50);
+//		int mo10 = money / 10;
+//		System.out.printf("10원 짜리 : %d개\n", mo10);
+//		money %= 10;
+//		
+//		System.out.printf("교환 금액 : %d원\n", result - money);
+//		
+//		System.out.printf("남은 금액 : %d원\n", money);
+		
+//		int rnum = (int) (Math.random() * 100) + 1;
+//		int cnt = 0;
+//		
+//		while(true) {
+//			System.out.print("숫자 입력 : ");
+//			int inum = scanner.nextInt();
+//			cnt++;
+//			
+//			if (rnum == inum) {
+//				System.out.println("축하합니다!!");
+//				break;
+//			} else if (rnum > inum) {
+//				System.out.println("up하세요!!");
+//			} else {
+//				System.out.println("down하세요!!");
+//			}			
+//		}
+//		System.out.printf("%d번 시도했습니다.\n", cnt);
+		
+//		for(int i = 2; i<= 9; i++) {
+//			System.out.printf("  %d단\t", i);			
+//		}
+//		System.out.println();
+//		
+//		for(int i = 1; i <=9; i++) {			
+//			for(int j = 2; j <= 9; j++) {				
+//				System.out.printf("%dX%d=%2d\t", j, i, i*j);
+//			}
+//			System.out.println();
+//		}
+//		ondo: while(true) {
+//			System.out.println("=====================");
+//			System.out.println("1.화씨 => 섭씨");
+//			System.out.println("2.섭씨 => 화씨");
+//			System.out.println("3.종료");
+//			System.out.println("=====================");
+//			
+//			System.out.print("▶ 번호 선택: ");
+//			int selnum = scanner.nextInt();
+//			
+//			switch (selnum) {
+//			
+//			case 1:
+//				System.out.print("▶ 화씨 온도 입력: ");
+//				double hwa = scanner.nextDouble();
+//				System.out.printf("\n섭씨 온도 = %.6f\n", (double) 5 / 9 * (hwa - 32));
+//				break;
+//			
+//			case 2:
+//				System.out.print("▶ 섭씨 온도 입력: ");
+//				double sup = scanner.nextDouble();
+//				System.out.printf("\n화씨 온도 = %.6f\n", (double) 9 / 5 * sup + 32);
+//				break;
+//				
+//			case 3:
+//				break ondo;
+//				
+//			default:
+//				System.out.println("숫자만 입력하세요.");
+//			}
+//		}
+//		System.out.println("program end");
+		
+//		int uwin = 0, cwin = 0, draw = 0, count = 0;
+//		
+//		while(true) {
+//			System.out.print("## 가위(0) 바위(1) 보(2) : ");
+//			int usern = scanner.nextInt();
+//			int comn = (int) (Math.random() * 3);
+//			
+//			if (usern >= 3) {
+//				System.out.println("game over");
+//				break;
+//			} else if ((usern + 1) % 3 == comn) {
+//				cwin++;
+//				System.out.printf("사람 %d, 컴 %d 컴퓨터 승리\n", usern, comn);
+//			} else if (usern == comn) {
+//				draw++;
+//				System.out.printf("사람 %d, 컴 %d 비겼음\n", usern, comn);
+//			} else {
+//				uwin++;
+//				System.out.printf("사람 %d, 컴 %d 사람 승리\n", usern, comn);
+//			}
+//			count++;
+//		}
+//		System.out.printf("총 게임 횟수: %d\n컴퓨터 승리: %d\n유저 승리: %d\n비긴 횟수: %d\n", count, cwin, uwin, draw);
+		
+//		for (int i = 4; i > 0; i--) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		for (int i = 2; i <= 4; i++) {
+//			for (int j = 1; j < 7-i; j++) {
+//				System.out.print(" ");
+//			}
+//			for (int k = 0; k < (i*2)-1; k++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+				
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j <= 10; j++) {
+				if {
+					
+				}
+				((i * 10 + j) / 10 == 3 && ((i * 10 + j) % 10 == 3 || (i * 10 + j) % 10 == 6 || (i * 10 + j) % 10 == 9)) {
+					System.out.print("짝짝 ")
+					else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+						System.out.print("짝  ");
+					} else {
+						System.out.print(i + "  ");
+					}
+			}
+			System.out.println();
+		}
+		
+		
+		for (int i = 1; i <= 50; i++) {
+			if (i % 10 == 1) {
+				System.out.println();
+				System.out.print(i + " ");
+			} else if (i / 10 == 3 && (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)) {
+				System.out.print("짝짝 ");
+			} else if (i / 10 == 3 || i % 10 == 3 || i % 10 == 6 || i % 10 == 9) {
+				System.out.print("짝  ");
+			} else {
+				System.out.print(i + "  ");
+			}
+		}
+		
+		scanner.close();
+	}
+}
+
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-09-30 19:51:44.185
+!MESSAGE 플러그인 "org.eclipse.jdt.core.manipulation"에서 코드 호출하는 중에 문제점이 발생했습니다.
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-09-30 19:51:44.185
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:880)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2038)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3013)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-03 00:57:36.269 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2023-10-03 00:57:40.538
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-03 00:57:40.538
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,유형 열기,
+		Java 편집기에서 유형을 엽니다.,
+		Category(org.eclipse.ui.category.navigate,탐색,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a61721e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6eb06667,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-03 00:57:40.538
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,이름 바꾸기 - 리팩토링,
+		선택된 요소의 이름을 바꿉니다.,
+		Category(org.eclipse.jdt.ui.category.refactoring,리팩터 - Java,Java 리팩토링 조치입니다.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f0dae44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,이름 바꾸기,
+		선택된 항목의 이름을 바꿉니다.,
+		Category(org.eclipse.ui.category.file,파일,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79ac50fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-10-03 00:57:43.421
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2023-10-03 00:57:43.422
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-03 00:57:43.440
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\User'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-10-03 01:12:45.126
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.startup.splash.BasicSplashDialog.getTitleImage(BasicSplashDialog.java:198)
+	at com.genuitec.eclipse.startup.splash.BasicSplashDialog.createImageComposite(BasicSplashDialog.java:177)
+	at com.genuitec.eclipse.startup.splash.BasicSplashDialog.createContents(BasicSplashDialog.java:140)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.setupSplash(CustomStartupDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:362)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

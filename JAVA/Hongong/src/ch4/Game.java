@@ -159,26 +159,77 @@ public class Game {
 //			System.out.println();
 //		}
 		
-		String s = "";
-		for (int i = 0; i < 5; i++) {
+//		for (int i = 0; i < 5; i++) {
+//			for (int j = 1; j <= 10; j++) {
+//				int num = i * 10 + j;
+//				int num10 = num / 10;
+//				int num1 = num % 10;
+//				
+//				if (num10 == 3 && (num1 == 3 || num1 == 6 || num1 == 9)) {
+//					System.out.print("짝짝 ");
+//				} else if (num10 == 3 || (num1 % 3 == 0 && num1 != 0)) {
+//					System.out.print("짝 ");
+//				} else {
+//					System.out.printf("%2d ", num);
+//				}
+//			}
+//			System.out.println();
+//		}
+		
+		for (int i = 0; i < 10; i++) {
 			for (int j = 1; j <= 10; j++) {
-				if (j % 3 == 0) {
-					s += "짝";
+				int num = i * 10 + j;
+				int num10 = num / 10;
+				int num1 = num % 10;
+				
+				if ((num10 % 3 == 0 && i != 0) && (num1 % 3 == 0 && num1 != 0)) {
+					System.out.print("짝짝 ");
+				} else if ((num10 % 3 == 0 && i != 0) || (num1 % 3 == 0 && num1 != 0)) {
+					System.out.print("짝 ");
+				} else {
+					System.out.printf("%2d ", num);
 				}
-				else if (i != 0 && (i * 10) % 3 == 0) {
-					s += "뽕  ";
-				}
-				else {
-					System.out.printf("%2d  ", i*10 + j);					
-				}
-				System.out.print(s + " ");
-				s = "";
 			}
 			System.out.println();
 		}
+				
+//		for (int i = 0; i < 10; i++) {
+//			for (int j = 1; j <= 10; j++) {
+//				int num = i * 10 + j;
+//				int num10 = num / 10;
+//				int num1 = num % 10;
+//				
+//				if ((num10 == 3 || num10 == 6 || num10 == 9) && (num1 == 3 || num1 == 6 || num1 == 9)) {
+//					System.out.print("짝짝 ");
+//				} else if ((num10 == 3 || num10 == 6 || num10 == 9) || (num1 % 3 == 0 && num1 != 0)) {
+//					System.out.print("짝 ");
+//				} else {
+//					System.out.printf("%2d ", num);
+//				}
+//			}
+//			System.out.println();
+//		}
 		
-		
+//		String game369 = "";
+//		for (int i = 0; i < 5; i++) {
+//			for (int j = 1; j <= 10; j++) {
+//				int num = i * 10 + j;
+//				int num10 = num / 10;
+//				int num1 = num % 10;
+//				
+//				if (num10 == 3 && (num1 == 3 || num1 == 6 || num1 == 9)) {
+//					game369 += "짝짝 ";
+//				} else if (num10 == 3 || (num1 % 3 == 0 && num1 != 0)) {
+//					game369 += "짝 ";
+//				} else {
+//					game369 += (i*10+j) + " ";
+//				}
+//			}
+//			game369 += "\n";
+//		}
+//		System.out.print(game369);
+				
 		scanner.close();
 	}
-
 }
+
