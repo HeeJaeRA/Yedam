@@ -128,6 +128,8 @@ public class Exam160p {
 			}
 		}
 		System.out.println("\n프로그램 종료");
-	}
+		
+		scanner.close();
+	}	
 	
 }
