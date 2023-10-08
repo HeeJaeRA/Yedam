@@ -5,7 +5,7 @@ public class Dice {
 	private int dice_num1;
 	private int dice_num2;
 	
-	public int getDice_num1() {
+	private int getDice_num1() {
 		return dice_num1;
 	}
 
@@ -13,7 +13,7 @@ public class Dice {
 		this.dice_num1 = dice_num1;
 	}
 
-	public int getDice_num2() {
+	private int getDice_num2() {
 		return dice_num2;
 	}
 
@@ -42,7 +42,6 @@ public class Dice {
 			} else if (cnt % 10 == 0) {
 				System.out.println();
 			}
-			
 		}
 			
 	}
