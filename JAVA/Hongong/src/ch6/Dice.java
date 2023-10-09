@@ -5,19 +5,19 @@ public class Dice {
 	private int dice_num1;
 	private int dice_num2;
 	
-	private int getDice_num1() {
+	public int getDice_num1() {
 		return dice_num1;
 	}
 
-	private void setDice_num1(int dice_num1) {
+	public void setDice_num1(int dice_num1) {
 		this.dice_num1 = dice_num1;
 	}
 
-	private int getDice_num2() {
+	public int getDice_num2() {
 		return dice_num2;
 	}
 
-	private void setDice_num2(int dice_num2) {
+	public void setDice_num2(int dice_num2) {
 		this.dice_num2 = dice_num2;
 	}
 
