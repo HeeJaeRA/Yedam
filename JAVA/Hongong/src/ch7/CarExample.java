@@ -25,12 +25,15 @@ public class CarExample {
 				car.backLeftTire = new HankookTire("뒤 왼쪽 ", 17);
 				break;
 			case 4:
-				System.out.println("앞 왼쪽 HankookTire로 교체");
+				System.out.println("뒤 오른쪽 HankookTire로 교체");
 				car.backRightTire = new KumhoTire("뒤 오른쪽", 20);
 				break;
 			}
 			System.out.println("--------------------------");
+			car.run_tire();
+			System.out.println("--------------------------");
 		}
+		
 
 	}
 

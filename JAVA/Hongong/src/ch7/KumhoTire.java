@@ -19,5 +19,12 @@ public class KumhoTire extends Tire {
 		}
 	
 	}
+	
+	@Override
+	public void roll_tire() {
+		// TODO 자동 생성된 메소드 스텁
+//		super.roll_tire();
+		System.out.println("금호타이어가 굴러갑니다.");
+	}
 
 }

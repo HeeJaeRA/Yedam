@@ -7,14 +7,14 @@ public class HttpServletExample {
 		method(new LoginServlet());
 		method(new FileDownloadServlet());
 		
-		LoginServlet a = new LoginServlet();
-		FileDownloadServlet b = new FileDownloadServlet();
-		
-		a.print();
-		a.service();
-		
-		b.print();
-		b.service();
+//		LoginServlet a = new LoginServlet();
+//		FileDownloadServlet b = new FileDownloadServlet();
+//		
+//		a.print();
+//		a.service();
+//		
+//		b.print();
+//		b.service();
 		
 	}
 

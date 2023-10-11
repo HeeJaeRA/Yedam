@@ -16,6 +16,13 @@ public class Car {
 		return 0;
 	}
 	
+	void run_tire() {
+		frontLeftTire.roll_tire();
+		frontRightTire.roll_tire();
+		backLeftTire.roll_tire();
+		backRightTire.roll_tire();
+	}
+	
 	void stop() {
 		System.out.println("[자동차가 멈춥니다]");
 	}
