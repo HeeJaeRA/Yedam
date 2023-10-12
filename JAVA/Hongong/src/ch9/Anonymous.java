@@ -1,8 +1,28 @@
 package ch9;
 
 public class Anonymous {
+		
+	Worker field = new Worker() {
+		public void start() {
+			System.out.println("디자인을 합니다.");
+		}
+	};
 	
-	Vehicle field = new Vehicle() {
+	void method1() {
+		Worker localVar = new Worker() {		
+			public void start() {
+				System.out.println("개발을 합니다.");
+			}
+		};
+		localVar.start();
+	}
+	
+	
+	void method2(Worker worker) {
+		worker.start();
+	}
+	
+	Vehicle field1 = new Vehicle() {
 		@Override
 		public void run() {
 			// TODO 자동 생성된 메소드 스텁
@@ -24,26 +44,6 @@ public class Anonymous {
 	
 	void method_2(Vehicle vehicle) {
 		vehicle.run();
-	}
-	
-	Worker field1 = new Worker() {
-		public void start() {
-			System.out.println("디자인을 합니다.");
-		}
-	};
-	
-	void method1() {
-		Worker localVar = new Worker() {		
-			public void start() {
-				System.out.println("개발을 합니다.");
-			}
-		};
-		localVar.start();
-	}
-	
-	
-	void method2(Worker worker) {
-		worker.start();
 	}
 
 }

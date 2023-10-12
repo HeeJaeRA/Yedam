@@ -6,7 +6,7 @@ public class AnonymousExample {
 		// TODO 자동 생성된 메소드 스텁
 
 		Anonymous anony = new Anonymous();
-		anony.field1.start();
+		anony.field.start();
 		anony.method1();
 		
 		anony.method2(
@@ -20,8 +20,9 @@ public class AnonymousExample {
 		System.out.println();
 		
 		Anonymous anony_1 = new Anonymous();
-		anony_1.field.run();
+		anony_1.field1.run();
 		anony_1.method_1();
+		
 		anony_1.method_2(
 				new Vehicle() {
 					@Override
