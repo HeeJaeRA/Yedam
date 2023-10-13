@@ -9,28 +9,33 @@ import java.awt.event.ActionListener;
 public class Login extends JFrame{
     private JFrame frame;
     private JPanel panel;
-    private JLabel usernameLabel;
-    private JLabel passwordLabel;
-    private JTextField usernameField;
-    private JPasswordField passwordField;
+    private JLabel idLabel;
+    private JTextField idField;
+    private JLabel pwLabel;
+    private JPasswordField pwField;
     private JButton loginButton;
 
     public Login() {
         frame = new JFrame("Login Screen");
         panel = new JPanel();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        frame.setBounds(600, 300, 500, 1500);
 
-        usernameLabel = new JLabel("ID: ");
-        passwordLabel = new JLabel("Password: ");
-        usernameField = new JTextField(20);
-        passwordField = new JPasswordField(20);
+        idLabel = new JLabel("ID: ", SwingConstants.CENTER);
+        idField = new JTextField(20);
+        
+        pwLabel = new JLabel("PW: ", SwingConstants.CENTER);
+        pwField = new JPasswordField(20);
+        pwField.setEchoChar('*');
+        
         loginButton = new JButton("Login");
 
         loginButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String username = usernameField.getText();
-                char[] password = passwordField.getPassword(); 
+                String username = idField.getText();
+                char[] password = pwField.getPassword(); 
                 String passwordString = new String(password);
 
                 if (isValidLogin(username, passwordString)) {
@@ -39,15 +44,15 @@ public class Login extends JFrame{
                     JOptionPane.showMessageDialog(frame, "로그인 실패");
                 }
 
-                passwordField.setText("");
+                pwField.setText("");
             }
         });
 
         panel.setLayout(new GridLayout(3, 2));
-        panel.add(usernameLabel);
-        panel.add(usernameField);
-        panel.add(passwordLabel);
-        panel.add(passwordField);
+        panel.add(idLabel);
+        panel.add(idField);
+        panel.add(pwLabel);
+        panel.add(pwField);
         panel.add(loginButton);
 
         frame.add(panel);
