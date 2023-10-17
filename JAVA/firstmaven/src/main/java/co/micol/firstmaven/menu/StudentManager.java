@@ -77,20 +77,26 @@ public class StudentManager {
 		StudentVO vo = new StudentVO();
 		
 		System.out.print("학생 아이디> ");
-		vo.setStudentId(sc.nextLine());
+		String id = sc.nextLine(); 
+		vo.setStudentId(id);
 		
 		System.out.print("학생 이름> ");
-		vo.setStudentId(sc.nextLine());
+		String name = sc.nextLine(); 
+		vo.setStudentName(name);
 		
 		System.out.print("학생 비밀번호> ");
-		vo.setStudentId(sc.nextLine());
+		String pw = sc.nextLine(); 
+		vo.setStudentPassword(pw);
 		
 		System.out.print("학생 학과> ");
-		vo.setStudentId(sc.nextLine());
+		String dept = sc.nextLine(); 
+		vo.setStudentDept(dept);
 		
 		System.out.print("학생 생년월일> ");
 		String day = sc.nextLine();
-		vo.setStudentBirthday(Date.valueOf(day));
+		java.sql.Date d = java.sql.Date.valueOf(day);
+		vo.setStudentBirthday(d);
+		
 		int n = st.insertStudent(vo);
 		if (n != 0) {
 			System.out.println("정상적으로 등록되었습니다.");
@@ -104,19 +110,19 @@ public class StudentManager {
 		StudentVO vo = new StudentVO();
 		
 		System.out.print("학생 아이디> ");
-		String id = sc.nextLine(); sc.nextLine();
+		String id = sc.nextLine(); 
 		vo.setStudentId(id);
 		
 		System.out.print("학생 이름> ");
-		String name = sc.nextLine(); sc.nextLine();
+		String name = sc.nextLine(); 
 		vo.setStudentName(name);
 		
 		System.out.print("학생 비밀번호> ");
-		String pw = sc.nextLine(); sc.nextLine();
+		String pw = sc.nextLine(); 
 		vo.setStudentPassword(pw);
 		
 		System.out.print("학생 학과> ");
-		String dept = sc.nextLine(); sc.nextLine();
+		String dept = sc.nextLine(); 
 		vo.setStudentDept(dept);
 		
 		System.out.print("학생 생년월일> ");
@@ -132,7 +138,7 @@ public class StudentManager {
 		StudentVO vo = new StudentVO();
 		
 		System.out.print("학생 아이디> ");
-		String id = sc.nextLine(); sc.nextLine();
+		String id = sc.nextLine(); 
 		vo.setStudentId(id);
 		
 		st.deleteStudent(vo);
