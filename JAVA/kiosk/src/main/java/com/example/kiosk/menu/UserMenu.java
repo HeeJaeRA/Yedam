@@ -17,9 +17,9 @@ public class UserMenu {
 	}
 	
 	private void menuTitle() {
-		System.out.println("------------------------------");
-		System.out.println("1. 메뉴판  |  2. 주문  | 3. 종료");
-		System.out.println("------------------------------");
+		System.out.println("---------------------------------");
+		System.out.println("1. 메뉴판  |  2. 주문  |  3. 종료");
+		System.out.println("---------------------------------");
 	}
 	
 	private void menu() {
@@ -34,7 +34,8 @@ public class UserMenu {
 				selectAllProduct();
 				break;
 			case 2:
-				System.out.println("주문하기");
+				System.out.println("제품명> ");
+				orderProduct();
 				break;
 			case 3:
 				System.out.println("프로그램 종료");
@@ -48,6 +49,7 @@ public class UserMenu {
 	}
 
 	private void selectAllProduct() {
+		// 테이블 전체 조회
 		List<UserVO> products = new ArrayList<>();
 		products = us.selectListUser();
 		
@@ -55,4 +57,17 @@ public class UserMenu {
 			product.toString();
 		}
 	}
+	
+	private void orderProduct() {
+		// 제품명으로 주문
+		us.orderList();
+		System.out.println("주문 완료");
+	}
+	
+	private void receipt() {
+		
+		
+	}
+
+
 }

@@ -6,4 +6,6 @@ public interface UserServ {
 	
 	List<UserVO> selectListUser();
 	
+	List<UserVO> orderList();
+	
 }

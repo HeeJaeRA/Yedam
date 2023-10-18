@@ -41,8 +41,12 @@ public class UserVO {
 	
 	@Override
 	public String toString() {
-		System.out.printf("%3s %6s %5d원 %3dKcal\n", productType, productName, productPrice, productKcal);
+		System.out.printf("%3s %7s  %5d원 %3dKcal\n", productType, productName, productPrice, productKcal);
 		return null;
+	}
+	
+	public void print() {
+		System.out.printf("%d원\t%dKcal\n", productPrice, productKcal);
 	}
 	
 
