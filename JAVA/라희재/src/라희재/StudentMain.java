@@ -37,6 +37,7 @@ public class StudentMain {
 				break;
 				
 			case 2:
+				
 				list = sd.list_add(s_number);
 				break;
 				
