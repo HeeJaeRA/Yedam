@@ -62,10 +62,13 @@ public class UserservImpl implements UserServ {
 		int kcalSum = 0;
 		
 		UserVO vo;
+		
 		String sql = "SELECT * FROM PRODUCT WHERE PRODUCT_NAME = ?" ;
+		System.out.print("제품명> ");
 		String orderP = sc.nextLine();
 		System.out.print("수량> ");
 		int orderN = Integer.parseInt(sc.nextLine());
+		
 		try {
 			conn = dao.getConnection();
 			psmt = conn.prepareStatement(sql);
@@ -82,7 +85,7 @@ public class UserservImpl implements UserServ {
 					kcalSum += vo.getProductKcal();
 				}
 			}
-			
+			System.out.println();
 			System.out.printf("총 주문금액: %d원 총 칼로리: %dKcal\n", priceSum, kcalSum);
 			
 			rs.close();

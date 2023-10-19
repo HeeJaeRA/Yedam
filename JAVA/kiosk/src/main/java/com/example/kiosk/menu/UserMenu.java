@@ -35,7 +35,6 @@ public class UserMenu {
 				break;
 			case 2:
 				listProduct();
-				System.out.print("제품명> ");
 				orderProduct();
 				break;
 			case 3:
@@ -77,7 +76,7 @@ public class UserMenu {
 	
 	private void orderProduct() {
 		// 제품명으로 주문
-		us.orderList();		
+		us.orderList();					
 		System.out.println("결제 완료");
 	}
 }
