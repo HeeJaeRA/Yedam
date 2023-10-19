@@ -50,7 +50,7 @@ public class AdminVO {
 	
 	@Override
 	public String toString() {
-		System.out.printf("%2d번\t%3s\t%6s\t%5d원\t\t%3dKcal\n", productKey, productType, productName, productPrice, productKcal);
+		System.out.printf("%d번\t%s\t%7s\t%d원\t%dKcal\n", productKey, productType, productName, productPrice, productKcal);
 		return null;
 	}
 	

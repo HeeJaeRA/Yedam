@@ -76,7 +76,7 @@ public class AdminservImpl implements AdminServ {
 	@Override
 	public int deleteProduct(AdminVO vo) {
 		int n = 0;
-		String sql = "DELETE FROM PRODUCT WHERE PRODUCT_NAME LIKE ?";
+		String sql = "DELETE FROM PRODUCT WHERE PRODUCT_NAME = ?";
 		
 		try {
 			conn = dao.getConnection();
@@ -101,7 +101,7 @@ public class AdminservImpl implements AdminServ {
 	public List<AdminVO> selectListAdmin() {
 		List<AdminVO> products = new ArrayList<>();
 		AdminVO vo;
-		String sql = "SELECT * FROM PRODUCT";
+		String sql = "SELECT * FROM PRODUCT ORDER BY PRODUCT_KEY";
 		try {
 			conn = dao.getConnection();
 			psmt = conn.prepareStatement(sql);

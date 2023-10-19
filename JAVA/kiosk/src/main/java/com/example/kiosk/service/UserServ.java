@@ -8,4 +8,6 @@ public interface UserServ {
 	
 	List<UserVO> orderList();
 	
+	List<UserVO> productList();
+	
 }

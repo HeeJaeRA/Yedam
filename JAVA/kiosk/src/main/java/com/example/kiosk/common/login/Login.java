@@ -15,12 +15,11 @@ public class Login {
 		
 		System.out.print("아이디> ");
 		String inputID = sc.nextLine();
-		inputID = inputID.toUpperCase();
 				
 		System.out.print("비밀번호> ");
 		String inputPW = sc.nextLine();
 		
-		if (ID.equals(inputID) && PW.equals(inputPW)) {
+		if (ID.equals(inputID.toUpperCase()) && PW.equals(inputPW)) {
 			System.out.println("관리자님 환영합니다");
 			AdminMenu adminMenu = new AdminMenu();
 			adminMenu.run();
@@ -29,7 +28,6 @@ public class Login {
 			UserMenu userMenu = new UserMenu();
 			userMenu.run();
 		}
-
 	}
 
 }

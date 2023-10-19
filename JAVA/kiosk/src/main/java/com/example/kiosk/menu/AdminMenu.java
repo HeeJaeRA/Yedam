@@ -31,7 +31,6 @@ public class AdminMenu {
 			
 			switch (selNum) {			
 			case 1:
-//				System.out.println("제품번호 제품종류\t\t제품이름\t\t제품가격\t\t칼로리");
 				selectAllProduct();
 				break;				
 			case 2:

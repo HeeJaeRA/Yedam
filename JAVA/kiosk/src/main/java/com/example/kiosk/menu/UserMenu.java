@@ -34,7 +34,8 @@ public class UserMenu {
 				selectAllProduct();
 				break;
 			case 2:
-				System.out.println("제품명> ");
+				listProduct();
+				System.out.print("제품명> ");
 				orderProduct();
 				break;
 			case 3:
@@ -49,7 +50,7 @@ public class UserMenu {
 	}
 
 	private void selectAllProduct() {
-		// 테이블 전체 조회
+		// 전체 메뉴판
 		List<UserVO> products = new ArrayList<>();
 		products = us.selectListUser();
 		
@@ -58,16 +59,25 @@ public class UserMenu {
 		}
 	}
 	
-	private void orderProduct() {
-		// 제품명으로 주문
-		us.orderList();
-		System.out.println("주문 완료");
+	private void listProduct() {
+		// 간이 메뉴판
+		List<UserVO> products = new ArrayList<>();
+		products = us.productList();		
+		int cnt = 0;		
+		for (UserVO product : products) {
+			cnt++;
+			if (cnt % 5 == 0) {
+				System.out.println();
+			} else {
+				product.print();				
+			}
+		}
+		System.out.println("\n");
 	}
 	
-	private void receipt() {
-		
-		
+	private void orderProduct() {
+		// 제품명으로 주문
+		us.orderList();		
+		System.out.println("결제 완료");
 	}
-
-
 }
