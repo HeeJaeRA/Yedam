@@ -31,18 +31,23 @@ public class AdminMenu {
 			
 			switch (selNum) {			
 			case 1:
+				// 전체 조회
 				selectAllProduct();
 				break;				
 			case 2:
+				// 추가
 				insert();
 				break;				
 			case 3:
+				// 수정
 				update();
 				break;				
 			case 4:
+				// 삭제
 				delete();
 				break;				
 			case 5:
+				// 프로그램 종료
 				System.out.println("프로그램 종료");
 				d = true;
 				break;			

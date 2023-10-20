@@ -87,7 +87,6 @@ public class UserservImpl implements UserServ {
 			}
 			System.out.println();
 			System.out.printf("총 주문금액: %d원 총 칼로리: %dKcal\n", priceSum, kcalSum);
-			
 			rs.close();
 		} catch (SQLException e) {
 			e.printStackTrace();

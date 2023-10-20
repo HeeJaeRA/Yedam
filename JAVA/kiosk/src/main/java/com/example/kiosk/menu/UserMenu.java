@@ -8,6 +8,7 @@ import com.example.kiosk.service.UserServ;
 import com.example.kiosk.service.UserVO;
 import com.example.kiosk.serviceImpl.UserservImpl;
 
+
 public class UserMenu {
 	private Scanner sc = new Scanner(System.in);
 	private UserServ us = new UserservImpl();
@@ -31,13 +32,16 @@ public class UserMenu {
 			
 			switch (selNum) {			
 			case 1:
+				// 전체 조회
 				selectAllProduct();
 				break;
 			case 2:
+				// 주문
 				listProduct();
 				orderProduct();
 				break;
 			case 3:
+				// 프로그램 종료
 				System.out.println("프로그램 종료");
 				d = true;
 				break;
@@ -76,7 +80,7 @@ public class UserMenu {
 	
 	private void orderProduct() {
 		// 제품명으로 주문
-		us.orderList();					
+		us.orderList();
 		System.out.println("결제 완료");
 	}
 }
