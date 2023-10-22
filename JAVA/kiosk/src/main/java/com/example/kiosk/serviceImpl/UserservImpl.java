@@ -55,52 +55,67 @@ public class UserservImpl implements UserServ {
 	}
 	
 	@Override
-	public List<UserVO> orderList() {
+	public List<UserVO> orderList(String uID) throws SQLException {
 		List<UserVO> products = new ArrayList<>();
 		
+		String receipt = "";
 		int priceSum = 0;
 		int kcalSum = 0;
 		
 		UserVO vo;
 		
-		String sql = "SELECT * FROM PRODUCT WHERE PRODUCT_NAME = ?" ;
-		System.out.print("제품명> ");
-		String orderP = sc.nextLine();
-		System.out.print("수량> ");
-		int orderN = Integer.parseInt(sc.nextLine());
+		String[] types = {"햄버거", "음료", "사이드"};
 		
-		try {
+		for (int j = 0; j < types.length; j++) {
+			System.out.printf("---%s---\n", types[j]);
+			String sql = "SELECT * FROM PRODUCT WHERE PRODUCT_NAME = ?" ;
+			System.out.print("제품명> ");
+			String orderP = sc.nextLine();
+			System.out.print("수량> ");
+			String orderN = sc.nextLine();
+			
 			conn = dao.getConnection();
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, orderP);
 			ResultSet rs = psmt.executeQuery();			
-						
 			while (rs.next()) {
 				vo = new UserVO();
 				vo.setProductPrice(rs.getInt("PRODUCT_PRICE"));
 				vo.setProductKcal(rs.getInt("PRODUCT_KCAL"));
 				products.add(vo);
-				for(int i = 0; i < orderN; i++) {
+				for(int i = 0; i < Integer.parseInt(orderN); i++) {
 					priceSum += vo.getProductPrice();
 					kcalSum += vo.getProductKcal();
 				}
+				receipt += orderP + " " + orderN + "개" + "  ";
 			}
-			System.out.println();
-			System.out.printf("총 주문금액: %d원 총 칼로리: %dKcal\n", priceSum, kcalSum);
 			rs.close();
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} finally {
-			close();
 		}
+		close();
+		
+		String sql = "UPDATE MEMBER SET MEMBER_ONUM = MEMBER_ONUM + 1, MEMBER_OPRICE = ? WHERE MEMBER_ID = ?";
+		conn = dao.getConnection();
+		psmt = conn.prepareStatement(sql);
+		psmt.setInt(1, priceSum);
+		psmt.setString(2, uID);
+		psmt.executeUpdate();
+		
+		close();
+		
+		System.out.println();
+		System.out.println("주문내역");
+		System.out.println(receipt);
+		System.out.printf("총 주문금액: %d원 총 칼로리: %dKcal\n", priceSum, kcalSum);
+		
 		return products;
 	}
+
 	
 	@Override
 	public List<UserVO> productList() {
 		List<UserVO> products = new ArrayList<>();
 		UserVO vo;
-		String sql = "SELECT * FROM PRODUCT ORDER BY PRODUCT_KEY";
+		String sql = "SELECT * FROM PRODUCT ORDER BY PRODUCT_TYPE DESC, PRODUCT_KEY";
 		try {
 			conn = dao.getConnection();
 			psmt = conn.prepareStatement(sql);

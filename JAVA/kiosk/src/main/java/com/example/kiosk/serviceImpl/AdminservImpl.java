@@ -101,7 +101,7 @@ public class AdminservImpl implements AdminServ {
 	public List<AdminVO> selectListAdmin() {
 		List<AdminVO> products = new ArrayList<>();
 		AdminVO vo;
-		String sql = "SELECT * FROM PRODUCT ORDER BY PRODUCT_KEY";
+		String sql = "SELECT * FROM PRODUCT ORDER BY PRODUCT_TYPE DESC, PRODUCT_KEY";
 		try {
 			conn = dao.getConnection();
 			psmt = conn.prepareStatement(sql);
@@ -124,5 +124,5 @@ public class AdminservImpl implements AdminServ {
 		}
 		return products;
 	}
-	
+
 }

@@ -10,6 +10,6 @@ public interface AdminServ {
 	
 	int deleteProduct(AdminVO vo);
 	
-	List<AdminVO> selectListAdmin(); 
-
+	List<AdminVO> selectListAdmin();
+	
 }

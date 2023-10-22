@@ -1,9 +1,11 @@
 package com.example.kiosk.menu;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import com.example.kiosk.common.login.Login;
 import com.example.kiosk.service.UserServ;
 import com.example.kiosk.service.UserVO;
 import com.example.kiosk.serviceImpl.UserservImpl;
@@ -12,18 +14,19 @@ import com.example.kiosk.serviceImpl.UserservImpl;
 public class UserMenu {
 	private Scanner sc = new Scanner(System.in);
 	private UserServ us = new UserservImpl();
+	Login login = new Login();
 	
-	public void run() {
-		menu();
+	public void run(String uID) {
+		menu(uID);
 	}
 	
 	private void menuTitle() {
-		System.out.println("---------------------------------");
-		System.out.println("1. 메뉴판  |  2. 주문  |  3. 종료");
-		System.out.println("---------------------------------");
+		System.out.println("-------------------------------------------");
+		System.out.println("1. 메뉴판  |  2. 주문  |  3. 로그아웃  |  0. 종료");
+		System.out.println("-------------------------------------------");
 	}
 	
-	private void menu() {
+	private void menu(String uID) {
 		boolean d = false;
 		
 		do {
@@ -38,10 +41,15 @@ public class UserMenu {
 			case 2:
 				// 주문
 				listProduct();
-				orderProduct();
+				orderProduct(uID);
 				break;
 			case 3:
-				// 프로그램 종료
+				// 로그아웃
+				login.login();
+				d = true;
+				break;
+			case 0:
+				// 로그아웃
 				System.out.println("프로그램 종료");
 				d = true;
 				break;
@@ -70,6 +78,7 @@ public class UserMenu {
 		for (UserVO product : products) {
 			cnt++;
 			if (cnt % 5 == 0) {
+				product.print();
 				System.out.println();
 			} else {
 				product.print();				
@@ -78,9 +87,14 @@ public class UserMenu {
 		System.out.println("\n");
 	}
 	
-	private void orderProduct() {
+	private void orderProduct(String uID) {
 		// 제품명으로 주문
-		us.orderList();
+		try {
+			us.orderList(uID);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		System.out.println("결제 완료");
 	}
+
 }

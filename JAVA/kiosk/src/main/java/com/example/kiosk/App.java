@@ -1,7 +1,6 @@
 package com.example.kiosk;
 
 import com.example.kiosk.common.login.Login;
-import com.example.kiosk.common.login.LoginPanel;
 
 public class App
 {
@@ -10,8 +9,5 @@ public class App
         Login login = new Login();
         
         login.login();
-    	
-//    	new LoginPanel();
-    	
     }
 }

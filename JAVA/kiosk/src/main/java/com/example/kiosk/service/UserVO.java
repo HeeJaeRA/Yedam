@@ -41,7 +41,7 @@ public class UserVO {
 	
 	@Override
 	public String toString() {
-		System.out.printf("%s\t%7s\t%d원\t%3dKcal\n", productType, productName, productPrice, productKcal);
+		System.out.printf("%s\t%8s\t%d원\t%3dKcal\n", productType, productName, productPrice, productKcal);
 		return null;
 	}
 	
