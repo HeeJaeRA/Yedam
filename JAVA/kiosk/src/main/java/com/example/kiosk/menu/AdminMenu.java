@@ -24,52 +24,50 @@ public class AdminMenu {
 	}
 	
 	private void menuTitle() {
-		System.out.println("----------------------------------------------------------------------------------");
+		System.out.println("-------------------------------------------------------------------------------------------");
 		System.out.println("1. 제품 조회 | 2. 제품 추가 | 3. 제품 수정 | 4. 제품 삭제 | 5. 회원 관리 | 6. 로그아웃 | 0. 종료");
-		System.out.println("----------------------------------------------------------------------------------");
+		System.out.println("-------------------------------------------------------------------------------------------");
 	}
 	
 	private void menu() {
 		boolean d = false;
-		
 		do {
 			menuTitle();
-			int selNum = Integer.parseInt(sc.nextLine());
+			String selNum = sc.nextLine();
 			
 			switch (selNum) {			
-			case 1:
+			case "1":
 				// 전체 조회
 				selectAllProduct();
 				break;				
-			case 2:
+			case "2":
 				// 추가
 				insertProduct();
 				break;				
-			case 3:
+			case "3":
 				// 수정
 				updateProduct();
 				break;				
-			case 4:
+			case "4":
 				// 삭제
 				deleteProduct();
 				break;				
-			case 5:
+			case "5":
 				// 사용자 관리
-				managMemeber();
+				manageMemeber();
 				break;			
-			case 6:
+			case "6":
 				// 로그아웃
 				login.login();
 				d = true;
 				break;
-			case 0:
+			case "0":
 				// 프로그램 종료
 				System.out.println("프로그램 종료");
 				d = true;
 				break;
 			default:
 				System.out.println("다시 입력하세요.");
-				break;
 			}			
 		} while(!d);
 	}
@@ -87,7 +85,7 @@ public class AdminMenu {
 		// 컬럼 전부 추가
 		AdminVO vo = new AdminVO();
 		
-		System.out.println("햄버거 상품번호: 1~50 | 음료 상품번호: 50~100 | 사이드 상품번호: 100~150");
+		System.out.println("햄버거 상품번호: 1~20 | 음료 상품번호: 21~40 | 사이드 상품번호: 41~60");
 		
 		System.out.println("상품번호> ");
 		int key = Integer.parseInt(sc.nextLine());
@@ -116,7 +114,7 @@ public class AdminMenu {
 		// 제품명, 가격, 칼로리만 수정 가능
 		AdminVO vo = new AdminVO();
 		
-		System.out.println("햄버거 상품번호: 1~50 | 음료 상품번호: 50~100 | 사이드 상품번호: 100~150");
+		System.out.println("햄버거 상품번호: 1~20 | 음료 상품번호: 21~40 | 사이드 상품번호: 41~60");
 		
 		System.out.println("수정할 제품번호> ");
 		int key = Integer.parseInt(sc.nextLine());
@@ -148,33 +146,30 @@ public class AdminMenu {
 		ad.deleteProduct(vo);		
 	}
 	
-	private void managMemeber() {
-		
+	private void manageMemeber() {
 		boolean d = false;
-		
 		do {
-			System.out.println("-----------------------------------------------------");
+			System.out.println("-----------------------------------------------------------");
 			System.out.println("1. 전체 조회 | 2. 비밀번호 초기화 | 3. 회원 삭제 | 4. 메인 메뉴");
-			System.out.println("-----------------------------------------------------");
+			System.out.println("-----------------------------------------------------------");
 			System.out.print("> ");
-			int selNum = Integer.parseInt(sc.nextLine());
+			String selNum = sc.nextLine();
 			
 			switch (selNum) {
-			case 1:
+			case "1":
 				selectAllMember();
 				break;
-			case 2:
+			case "2":
 				updateMember();
 				break;
-			case 3:
+			case "3":
 				deleteMember();
 				break;
-			case 4:
+			case "4":
 				d = true;
 				break;
 			default:
 				System.out.println("다시 입력하세요.");
-				break;
 			}
 		} while(!d);
 	}
@@ -207,6 +202,5 @@ public class AdminMenu {
 		
 		mb.deleteMember(vo);
 	}
-
 
 }

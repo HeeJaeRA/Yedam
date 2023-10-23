@@ -11,5 +11,7 @@ public interface UserServ {
 	
 	List<UserVO> productList();
 	
+	int updateGrade(String uID);
+	
 }
 

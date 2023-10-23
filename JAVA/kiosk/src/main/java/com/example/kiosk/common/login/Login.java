@@ -16,34 +16,33 @@ public class Login {
 	
 	public void login() {
 		
-		System.out.println("-------------------------------------------------");
+		System.out.println("----------------------------------------------------------");
 		System.out.println("예담 햄버거에 오신 것을 환영합니다.");
-		System.out.println("-------------------------------------------------");
+		System.out.println("----------------------------------------------------------");
 		System.out.println("1. 관리자 로그인 | 2. 사용자 로그인 | 3. 회원가입 | 4. 종료");
-		System.out.println("-------------------------------------------------");
+		System.out.println("----------------------------------------------------------");
 		System.out.print("> ");
-		int selNum = Integer.parseInt(sc.nextLine());
+		String selNum = sc.nextLine();
 		
 		switch (selNum) {
-		case 1:
+		case "1":
 			loginAdmin();
 			break;
-		case 2:
+		case "2":
 			loginUser();
 			break;
-		case 3:
+		case "3":
 			join();
 			System.out.println("로그인 페이지로 이동합니다.");
 			loginUser();
 			break;
-		case 4:
+		case "4":
 			System.out.println("프로그램 종료");
 			break;
 		default:
 			System.out.println("다시 입력하세요.");
-			break;
+			login();
 		}
-		
 	}
 
 	private void loginAdmin() {
@@ -65,7 +64,6 @@ public class Login {
 				aPW = member.getMemberPw();
 			} 
 		}
-		
 		
 		if (aID.equals(inputID.toUpperCase())) {
 			if (aPW.equals(inputPW)) {
@@ -95,29 +93,32 @@ public class Login {
 		String uID = null;
 		String uPW = null;
 		
-		if (!inputID.toUpperCase().equals("ADMIN")) {
-			for (MemberVO member : members) {
-				if (member.getMemberId().equals(inputID)) {
-					uID = member.getMemberId();
-					uPW = member.getMemberPw();
+		try {
+			if (!inputID.toUpperCase().equals("ADMIN")) {
+				for (MemberVO member : members) {
+					if (member.getMemberId().equals(inputID)) {
+						uID = member.getMemberId();
+						uPW = member.getMemberPw();
+					}
 				}
+				if (uID.equals(inputID)) {
+					if (uPW.equals(inputPW)) {
+						System.out.printf("%s님 환영합니다\n", uID);
+						UserMenu userMenu = new UserMenu();
+						userMenu.run(uID);				
+					} else {
+						System.out.println("비밀번호 오류");
+						login();
+					}
+				}			
+			} else {
+				System.out.println("관리자 로그인 메뉴를 사용하세요.");
+				login();
 			}
-			
-			if (uID.equals(inputID)) {
-				if (uPW.equals(inputPW)) {
-					System.out.printf("%s님 환영합니다\n", uID);
-					UserMenu userMenu = new UserMenu();
-					userMenu.run(uID);				
-				} else {
-					System.out.println("비밀번호 오류");
-					login();
-				}
-			}			
-		} else {
-			System.out.println("관리자 로그인 메뉴를 사용하세요.");
+		} catch (NullPointerException e) {
+			System.out.println("아이디가 존재하지 않습니다.");
 			login();
 		}
-		
 	}
 	
 	private void join() {

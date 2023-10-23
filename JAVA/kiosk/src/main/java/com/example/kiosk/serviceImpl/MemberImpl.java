@@ -30,7 +30,7 @@ public class MemberImpl implements MemberServ {
 	public List<MemberVO> loginMemeber() {
 		List<MemberVO> members = new ArrayList<>();
 		MemberVO vo;
-		String sql = "SELECT * FROM MEMBER";
+		String sql = "SELECT * FROM MEMBER ORDER BY MEMBER_GRADE";
 		try {
 			conn = dao.getConnection();
 			psmt = conn.prepareStatement(sql);
@@ -42,6 +42,7 @@ public class MemberImpl implements MemberServ {
 				vo.setMemberPw(rs.getString("MEMBER_PW"));
 				vo.setMemberOnumber(rs.getInt("MEMBER_ONUM"));
 				vo.setMemberOprice(rs.getInt("MEMBER_OPRICE"));
+				vo.setMemberGrade(rs.getString("MEMBER_GRADE"));
 				members.add(vo);
 			}
 			rs.close();
@@ -57,7 +58,7 @@ public class MemberImpl implements MemberServ {
 	@Override
 	public int joinMember(MemberVO vo) {
 		int n = 0;
-		String sql = "INSERT INTO MEMBER VALUES(?, ?)";
+		String sql = "INSERT INTO MEMBER VALUES(?, ?, 0, 0, 'WELCOME')";
 		
 		try {
 			conn = dao.getConnection();

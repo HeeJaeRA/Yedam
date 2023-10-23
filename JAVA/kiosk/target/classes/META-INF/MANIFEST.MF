@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: User
+Built-By: admin
 Build-Jdk: 17.0.1
 Class-Path: lib/ojdbc8-19.13.0.0.1.jar lib/junit-3.8.1.jar
 Main-Class: com.example.kiosk.App
