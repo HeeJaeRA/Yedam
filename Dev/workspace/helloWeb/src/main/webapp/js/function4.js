@@ -5,9 +5,11 @@ document.getElementById('saveBtn').onclick = function (e) {
     let height = document.getElementById('height').value;
 
     let str = "";
+    
     if(name == "" || age == "" || height == "") {
         window.alert("값을 입력하세요");
     } else {
+		const mem = new Member(name, age, height);
         str += makeTr(mem);
     }
 
@@ -20,8 +22,6 @@ document.getElementById('saveBtn').onclick = function (e) {
             return `이름은 ${this.name}이고 나이는 ${this.age}세 입니다.`;
         }
     }
-
-    const mem = new Member(name, age, height);
 
     function makeTr(member = {
         name,
